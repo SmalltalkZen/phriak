@@ -1,0 +1,14 @@
+{
+	"category" : "ConfigurationOfPhriak",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"LastVersionLoad" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"project" ],
+	"name" : "ConfigurationOfPhriak",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
