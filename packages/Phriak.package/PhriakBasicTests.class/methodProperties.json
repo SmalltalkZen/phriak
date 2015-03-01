@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testBucketProperties" : "gk 11/25/2011 10:01",
+		"testDeleteObject" : "NicolasPetton 2/2/2012 15:16",
+		"testListBucketKeys" : "PaulDeBruicker 9/11/2012 09:42",
+		"testListBuckets" : "gk 11/24/2011 23:20",
+		"testNoOperation" : "RunarJordahl 3/13/2011 20:06",
+		"testPutAndGetBinaryObject" : "NicolasPetton 2/2/2012 00:58",
+		"testPutAndGetEmptyBinaryObject" : "NicolasPetton 2/2/2012 00:59",
+		"testPutAndGetEmptyString" : "NicolasPetton 2/2/2012 00:59",
+		"testPutAndGetLargeBinaryObject" : "NicolasPetton 2/2/2012 00:59",
+		"testPutAndGetString" : "NicolasPetton 2/2/2012 00:59" } }

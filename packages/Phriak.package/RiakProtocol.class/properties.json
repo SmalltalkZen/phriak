@@ -1,0 +1,19 @@
+{
+	"category" : "Phriak-Protocol",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"session",
+		"host",
+		"port",
+		"riakPath",
+		"bucketsPath",
+		"mapreducePath" ],
+	"name" : "RiakProtocol",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

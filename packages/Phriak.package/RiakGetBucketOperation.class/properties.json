@@ -1,0 +1,14 @@
+{
+	"category" : "Phriak-Protocol",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"bucket" ],
+	"name" : "RiakGetBucketOperation",
+	"pools" : [
+		 ],
+	"super" : "RiakOperation",
+	"type" : "normal" }

@@ -1,0 +1,15 @@
+{
+	"category" : "Phriak-MapReduce",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"start",
+		"end" ],
+	"name" : "RiakSecondaryIndexRangeInput",
+	"pools" : [
+		 ],
+	"super" : "RiakSecondaryIndexInput",
+	"type" : "normal" }

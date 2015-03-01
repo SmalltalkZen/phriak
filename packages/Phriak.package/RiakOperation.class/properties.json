@@ -1,0 +1,15 @@
+{
+	"category" : "Phriak-Protocol",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"protocol",
+		"httpClient" ],
+	"name" : "RiakOperation",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,16 @@
+{
+	"category" : "Phriak-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"key",
+		"value",
+		"binary" ],
+	"name" : "RiakIndex",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

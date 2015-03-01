@@ -1,0 +1,1 @@
+Performs Phriak tests that don't require a db connection to a Riak cluster.

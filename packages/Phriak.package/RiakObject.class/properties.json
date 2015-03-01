@@ -1,0 +1,22 @@
+{
+	"category" : "Phriak-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "NicolasPetton 2/2/2012 13:12",
+	"instvars" : [
+		"bucket",
+		"key",
+		"data",
+		"contentType",
+		"links",
+		"indexes",
+		"vclock",
+		"lastModified",
+		"metadata" ],
+	"name" : "RiakObject",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

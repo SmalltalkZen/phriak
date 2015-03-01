@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testFromJson" : "NicolasPetton 2/2/2012 17:54",
+		"testIndexes" : "NicolasPetton 2/2/2012 15:27",
+		"testLinks" : "NicolasPetton 2/2/2012 15:27",
+		"testMetadata" : "NicolasPetton 2/2/2012 15:27",
+		"testSecondaryIndex" : "NicolasPetton 2/2/2012 16:48",
+		"testVclock" : "NicolasPetton 2/2/2012 16:29" } }

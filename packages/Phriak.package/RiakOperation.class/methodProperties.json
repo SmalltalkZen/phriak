@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"on:" : "NicolasPetton 2/2/2012 14:13" },
+	"instance" : {
+		"doRun" : "NicolasPetton 2/2/2012 14:25",
+		"errorResponseCodes" : "NicolasPetton 2/2/2012 15:51",
+		"handleErrorResponse:" : "NicolasPetton 2/3/2012 23:57",
+		"httpClient" : "PaulDeBruicker 4/20/2012 15:57",
+		"protocol" : "NicolasPetton 2/2/2012 14:15",
+		"protocol:" : "NicolasPetton 2/2/2012 14:13",
+		"readResponse:" : "NicolasPetton 1/31/2012 17:33",
+		"responseError:" : "NicolasPetton 1/31/2012 17:10",
+		"run" : "PaulDeBruicker 9/10/2012 13:43",
+		"successfulResponseCodes" : "NicolasPetton 2/2/2012 14:16",
+		"url" : "NicolasPetton 2/2/2012 14:18" } }

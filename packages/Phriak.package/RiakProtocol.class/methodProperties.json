@@ -1,0 +1,26 @@
+{
+	"class" : {
+		"on:" : "NicolasPetton 2/2/2012 16:52" },
+	"instance" : {
+		"baseUrl" : "NicolasPetton 2/2/2012 14:09",
+		"bucketsPath" : "NicolasPetton 2/2/2012 14:08",
+		"bucketsPath:" : "NicolasPetton 2/2/2012 14:08",
+		"deleteKeyOperation" : "NicolasPetton 2/2/2012 16:13",
+		"fetchObjectOperation" : "NicolasPetton 2/2/2012 14:48",
+		"getBucketOperation" : "NicolasPetton 2/2/2012 14:35",
+		"host" : "NicolasPetton 2/2/2012 14:08",
+		"host:" : "NicolasPetton 2/2/2012 14:08",
+		"listBucketOperation" : "NicolasPetton 2/2/2012 14:20",
+		"listKeysOperation" : "NicolasPetton 2/2/2012 15:57",
+		"mapReduceOperation" : "NicolasPetton 2/2/2012 16:50",
+		"mapreducePath" : "NicolasPetton 2/2/2012 14:08",
+		"mapreducePath:" : "NicolasPetton 2/2/2012 14:08",
+		"port" : "NicolasPetton 2/2/2012 14:08",
+		"port:" : "NicolasPetton 2/2/2012 14:08",
+		"riakPath" : "NicolasPetton 2/2/2012 14:08",
+		"riakPath:" : "NicolasPetton 2/2/2012 14:08",
+		"secondaryIndexOperation" : "NicolasPetton 2/2/2012 16:42",
+		"session" : "NicolasPetton 2/2/2012 16:52",
+		"session:" : "NicolasPetton 2/2/2012 16:52",
+		"setBucketOperation" : "NicolasPetton 2/2/2012 14:35",
+		"storeObjectOperation" : "NicolasPetton 2/2/2012 15:56" } }

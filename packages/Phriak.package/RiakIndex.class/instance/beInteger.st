@@ -1,0 +1,3 @@
+accessing
+beInteger
+	binary := false

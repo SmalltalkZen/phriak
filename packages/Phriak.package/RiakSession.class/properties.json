@@ -1,0 +1,14 @@
+{
+	"category" : "Phriak-Core",
+	"classinstvars" : [
+		"default" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "gk 11/24/2011 10:49",
+	"instvars" : [
+		"protocol" ],
+	"name" : "RiakSession",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

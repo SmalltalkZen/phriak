@@ -1,0 +1,24 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"bucket" : "NicolasPetton 2/2/2012 15:08",
+		"bucket:" : "NicolasPetton 2/2/2012 15:08",
+		"errorResponseCodes" : "NicolasPetton 2/3/2012 23:37",
+		"handleErrorResponse:" : "NicolasPetton 2/4/2012 00:10",
+		"key" : "NicolasPetton 2/2/2012 15:08",
+		"key:" : "NicolasPetton 2/2/2012 15:08",
+		"parseIndexFrom:" : "NicolasPetton 2/1/2012 23:40",
+		"parseIndexesFrom:" : "NicolasPetton 2/1/2012 23:35",
+		"parseLastModifiedFrom:" : "NicolasPetton 2/6/2012 16:28",
+		"parseLinkFrom:" : "NicolasPetton 2/2/2012 16:24",
+		"parseLinksFrom:" : "NicolasPetton 11/13/2012 14:18",
+		"parseMetadataFrom:" : "NicolasPetton 2/2/2012 16:27",
+		"parseMetadatasFrom:" : "NicolasPetton 2/2/2012 16:26",
+		"parseResponse:" : "NicolasPetton 2/6/2012 16:28",
+		"parseSiblingsFrom:" : "NicolasPetton 2/4/2012 00:00",
+		"readResponse:" : "NicolasPetton 2/2/2012 15:31",
+		"successfulResponseCodes" : "NicolasPetton 2/2/2012 15:11",
+		"url" : "NicolasPetton 2/4/2012 00:20",
+		"vtag" : "NicolasPetton 2/4/2012 00:19",
+		"vtag:" : "NicolasPetton 2/4/2012 00:19" } }

@@ -1,0 +1,14 @@
+{
+	"category" : "Phriak-Errors",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RiakError",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }

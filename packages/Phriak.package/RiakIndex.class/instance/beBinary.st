@@ -1,0 +1,3 @@
+accessing
+beBinary
+	binary := true

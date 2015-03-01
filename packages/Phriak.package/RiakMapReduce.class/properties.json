@@ -1,0 +1,16 @@
+{
+	"category" : "Phriak-MapReduce",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"session",
+		"inputs",
+		"query" ],
+	"name" : "RiakMapReduce",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

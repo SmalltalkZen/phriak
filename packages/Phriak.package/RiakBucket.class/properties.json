@@ -1,0 +1,17 @@
+{
+	"category" : "Phriak-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "NicolasPetton 2/2/2012 13:28",
+	"instvars" : [
+		"name",
+		"session",
+		"properties",
+		"objectClass" ],
+	"name" : "RiakBucket",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
