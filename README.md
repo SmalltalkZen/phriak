@@ -38,3 +38,13 @@ The subclasses of ```PhriakIntegrationTestCase``` require an instance of Riak to
 
     ```smalltalk
     clientForTesting	"Return an instance of a Riak HTTP client pointing to a test cluster"		^RiakClient http		host: 'localhost';		port: 8098;		yourself.	```
+#### Secondary Index Tests
+The [Secondary Index](http://docs.basho.com/riak/latest/dev/using/2i/) tests in ```PhriakSecondaryIndexTests``` can only be used with either the [LevelDB](http://docs.basho.com/riak/latest/ops/advanced/backends/leveldb/) or [Memory](http://docs.basho.com/riak/latest/ops/advanced/backends/memory/) backends, and will not work for a default Riak install (which uses the [Bitcask](http://docs.basho.com/riak/latest/ops/advanced/backends/bitcask/) backend).
+
+## Usage
+### Creating a client instance
+To use Riak, create a client instance:
+
+```smalltalk
+"Create a default client (a RiakHttpClient instance) pointing to default host and http port"client := RiakClient default."Or, set the host, port and client type explicitly"client := RiakClient http	host: '127.0.0.1';	port: 8098;	yourself.
+```
