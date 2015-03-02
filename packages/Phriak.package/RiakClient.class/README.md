@@ -3,6 +3,10 @@ Client interface to a Riak cluster. Use this class as the starting point to inte
 Riak is Basho's "Dynamo-inspired key/value store with a distributed database network platform"
 http://www.basho.com/riak
 
+Instance Variables
+	host: aString hostname or ip address of Riak cluster (usually, via a load balancer)
+	post: anInteger http port of the Riak cluster
+
 Usage:
 
 "Create a default client (a RiakHttpClient instance) pointing to default host and http port"
@@ -14,6 +18,10 @@ client := RiakClient http
 	port: 8098;
 	yourself.
 	
+Instance Variables:
+	host: aString - cluster hostname or ip address
+	port: anInteger - cluster port number 
+		
 Client Types Supported:
 	http  - currently, only the Http client is supported.
 	

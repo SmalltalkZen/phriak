@@ -1,0 +1,1 @@
+A RiakNotFoundError is raised by a RiakFetchObjectOperation, when an object is not found at a specified key.

@@ -9,4 +9,4 @@ See PhriakTestCase>>clientForTesting to change the host and port.
 Instance Variables
 
 client
-	a RiakClient subclass instance. 
+	a RiakClient subclass instance (initialized in >>clientForTesting)
