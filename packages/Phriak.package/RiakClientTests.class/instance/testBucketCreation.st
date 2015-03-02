@@ -2,7 +2,7 @@ testing
 testBucketCreation
 	"Test the creation of a Riak Bucket"
 	
-	| bucket |
+	| bucket client |
 	client := RiakClient default.
 	bucket := client bucketNamed: 'users'.
 	self assert: (bucket isKindOf: RiakBucket).

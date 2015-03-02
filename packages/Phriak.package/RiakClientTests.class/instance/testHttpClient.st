@@ -2,6 +2,7 @@ testing
 testHttpClient
 	"Test the properties of a RiakHttpClient instance"
 	
+	| client |
 	client := RiakClient http
 		host: 'localhost';
 		port: 8098;
