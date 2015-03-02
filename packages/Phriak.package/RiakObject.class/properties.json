@@ -4,13 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "DmitriZagidulin 2/28/2015 19:31",
+	"commentStamp" : "DmitriZagidulin 3/2/2015 13:46",
 	"instvars" : [
 		"bucket",
 		"key",
 		"data",
 		"contentType",
-		"links",
 		"indexes",
 		"vclock",
 		"lastModified",

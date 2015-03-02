@@ -1,6 +1,6 @@
 tests
 testMapReduce
-	| artist result objects |
+	| artist   |
 	
 	"MapReduce to get the track titles of The Beatles"
 	
@@ -16,26 +16,11 @@ testMapReduce
 			data: each;
 			indexesAt: 'hello' put: 'world';
 			store;
-			yourself.
-		artist 
-			linkTo: 'albums' key: each tag: 'author';
-			store].
+			yourself].
 		
 	#('Two of Us' 'Dig a Pony' 'Across the Universe') do: [:each | | track |
 		track := self tracksBucket newObject
 			key: each;
 			data: each;
 			store;
-			yourself.
-		(self albumsBucket at: 'Let It Be') 
-			linkTo: 'tracks' key: each tag: 'album';
-			store].
-	
-	result := self client mapReduce
-		bucket: 'artists' key: 'beatles';
-		link: 'albums' tag: 'author';
-		link: 'tracks' tag: 'album';
-		map: 'function(obj) {return [obj.key];}';
-		run.
-	
-	self assert: result sorted equals: #('Two of Us' 'Dig a Pony' 'Across the Universe') sorted
+			yourself].

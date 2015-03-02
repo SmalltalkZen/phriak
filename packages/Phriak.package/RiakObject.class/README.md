@@ -10,7 +10,6 @@ Instance Variables
 	indexes: aCollection of RiakIndex objects
 	key: aString
 	lastModified: anObject 
-	links: anObject
 	metadata: anObject
 	vclock: anObject
 	

@@ -8,9 +8,6 @@ testFromJson
         "values": [
             {
                 "metadata": {
-                    "Links": [
-                        ["hb","fourth","foo"]
-                    ],
 			  "index": {
 		            "hello_bin": "world"
 		        },
@@ -28,7 +25,6 @@ testFromJson
 	self assert: object bucket name = 'hb'.
 	self assert: object key = 'second'.
 	self assert: object vclock = 'a85hYGBgzGDKBVIsLEHbN2YwJTLmsTLMPvDzCF8WAA=='.
-	self assert: object links first = (RiakLink bucket: 'hb' key: 'fourth' tag: 'foo').
 	self assert: object indexes first = (RiakIndex key: 'hello' value: 'world').
 	self assert: object contentType = 'text/plain'.
 	self assert: object data = 'the second'

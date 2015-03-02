@@ -2,7 +2,6 @@ private
 parseResponse: aResponse
 	^self bucket newObject
 		contentType: (aResponse headers at: 'Content-Type');
-		links: (self parseLinksFrom: aResponse);
 		indexes: (self parseIndexesFrom: aResponse);
 		metadata: (self parseMetadatasFrom: aResponse);
 		key: self key; 

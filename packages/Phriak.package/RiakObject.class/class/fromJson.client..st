@@ -16,7 +16,4 @@ fromJson: json client: aClient
 	((values at: 'metadata') at: 'index') ifNotNil: [:index |
 		index keysAndValuesDo: [:key :value |
 			object indexes add: (RiakIndex fromJson: key -> value)]].
-	((values at: 'metadata') at: 'Links') ifNotNil: [:links |
-		object links: (links collect: [:each | 
-			RiakLink fromJson: each])].
 	^object
