@@ -5,9 +5,7 @@ testSiblingsWithoutAllowMult
 	"Set the property 'allow_mult' to true first on the bucket.
 	See http://docs.basho.com/riak/latest/theory/concepts/Vector-Clocks/"
 	
-	bucket := RiakSession default bucketNamed: self bucketNameForTesting, '2'.
-	bucket removeAll.
-	(Delay forSeconds: 2) wait.
+	bucket := self bucketNoSiblings.
 	
 	bucket properties at: 'allow_mult' put: false.
 	bucket storeProperties.

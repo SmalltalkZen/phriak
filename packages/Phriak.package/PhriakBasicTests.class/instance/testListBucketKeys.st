@@ -1,9 +1,10 @@
 tests
 testListBucketKeys
-	| bucket |
+	| bucket testKey |
 	bucket := self bucketForTesting.
+	testKey := 'test-string-for-listing'.
 	bucket newObject
 		data: 'abc';
-		key: 'test';
+		key: testKey;
 		store.
-	self assert: bucket keys size equals:1
+	self assert: bucket keys size >= 1

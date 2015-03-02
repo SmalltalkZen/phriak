@@ -1,11 +1,12 @@
 tests
 testPutAndGetBinaryObject
-	| bucket storedObject |
+	| testKey bucket storedObject |
 	storedObject := ByteArray with: 1 with: 2 with: 3.
 	bucket := self bucketForTesting.
+	testKey := 'test-binary'.
 	bucket newObject
 		data: storedObject;
-		key: 'test';
+		key: testKey;
 		contentType: 'application/binary';
 		store.
-	self assert: (bucket at: 'test') data = storedObject
+	self assert: (bucket at: testKey) data = storedObject

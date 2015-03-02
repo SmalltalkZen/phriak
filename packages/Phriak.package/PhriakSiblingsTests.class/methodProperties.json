@@ -2,6 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"bucketNameForTesting" : "NicolasPetton 2/28/2012 23:49",
+		"bucketNameForTesting" : "DmitriZagidulin 2/16/2014 15:57",
+		"bucketNameNoSiblings" : "DmitriZagidulin 2/16/2014 15:58",
+		"bucketNoSiblings" : "DmitriZagidulin 2/16/2014 16:00",
+		"tearDown" : "DmitriZagidulin 2/16/2014 16:01",
 		"testSiblings" : "DmitriZagidulin 2/16/2014 13:20",
-		"testSiblingsWithoutAllowMult" : "DmitriZagidulin 2/16/2014 13:21" } }
+		"testSiblingsWithoutAllowMult" : "DmitriZagidulin 2/16/2014 16:01" } }

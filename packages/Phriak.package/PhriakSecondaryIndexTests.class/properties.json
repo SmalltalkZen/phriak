@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"client" ],
-	"name" : "PhriakTestCase",
+		 ],
+	"name" : "PhriakSecondaryIndexTests",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "PhriakTestCase",
 	"type" : "normal" }

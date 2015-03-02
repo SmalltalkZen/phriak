@@ -1,14 +1,15 @@
 tests
 testVclock
-	| bucket object vclock |
+	| bucket object vclock testKey |
 	bucket := self bucketForTesting.
+	testKey := 'test-vclock'.
 	 bucket newObject
-		key: 'test';
+		key: testKey;
 		data: 'abc';
 		store.
-	object := bucket at: 'test'.
+	object := bucket at: testKey.
 	vclock := object vclock.
 	object store.
-	self deny: (bucket at: 'test') vclock = vclock.
-	self assert: (bucket at: 'test') vclock notNil
+	self deny: (bucket at: testKey) vclock = vclock.
+	self assert: (bucket at: testKey) vclock notNil
 	

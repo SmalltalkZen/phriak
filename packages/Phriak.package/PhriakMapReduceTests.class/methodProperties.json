@@ -4,7 +4,6 @@
 	"instance" : {
 		"albumsBucket" : "NicolasPetton 2/1/2012 21:39",
 		"artistsBucket" : "NicolasPetton 2/1/2012 21:39",
-		"setUp" : "NicolasPetton 2/2/2012 18:28",
 		"tearDown" : "NicolasPetton 2/2/2012 18:28",
 		"testLinkWalking" : "NicolasPetton 2/2/2012 18:12",
 		"testMapReduce" : "NicolasPetton 2/2/2012 18:37",
