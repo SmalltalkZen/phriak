@@ -1,6 +1,6 @@
 public
 removeKey: key
-	^ self protocol deleteKeyOperation
+	^ self client deleteKeyOperation
 		bucket: self;
 		key: key;
 		run

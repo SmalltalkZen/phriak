@@ -2,7 +2,7 @@ accessing
 url
 	| url |
 	url := super url
-		addPathSegment: self protocol bucketsPath;
+		addPathSegment: self client bucketsPath;
 		addPathSegment: self bucket name;
 		addPathSegment: 'index';
 		addPathSegment: self key, (self binary 

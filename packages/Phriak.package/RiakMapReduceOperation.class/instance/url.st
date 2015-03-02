@@ -1,5 +1,5 @@
 accessing
 url
 	^super url
-		addPathSegment: self protocol mapreducePath;
+		addPathSegment: self client mapReducePath;
 		yourself

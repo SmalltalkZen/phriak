@@ -10,5 +10,5 @@
 	"name" : "PhriakSecondaryIndexTests",
 	"pools" : [
 		 ],
-	"super" : "PhriakTestCase",
+	"super" : "PhriakIntegrationTestCase",
 	"type" : "normal" }

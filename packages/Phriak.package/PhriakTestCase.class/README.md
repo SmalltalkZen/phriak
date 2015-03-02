@@ -1,10 +1,1 @@
-A PhriakTestCase performs tests against the RIak HTTP API.
-See http://docs.basho.com/riak/latest/dev/references/http/
-
-The default Riak test url is http://localhost:8098/
-See PhriakTestCase>>clientForTesting to change the host and port.
-
-Instance Variables
-
-client
-	a RiakSession instance. 
+Performs Phriak tests that don't require a db connection to a Riak cluster.

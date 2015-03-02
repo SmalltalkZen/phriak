@@ -3,8 +3,8 @@ printOn: stream
 
 	stream 
 		nextPutAll: 'RiakBucket[ ';
-		nextPutAll: (self session protocol baseUrl 
-			addPathSegment: self session protocol bucketsPath;
+		nextPutAll: (self client baseUrl 
+			addPathSegment: self client bucketsPath;
 			addPathSegment: self name;
 			asString);
 		nextPutAll: ' ]'

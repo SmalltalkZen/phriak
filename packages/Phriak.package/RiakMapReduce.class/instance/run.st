@@ -1,5 +1,5 @@
 running
 run
-	^self session protocol mapReduceOperation 
+	^self client mapReduceOperation 
 		mapReduce: self;
 		run

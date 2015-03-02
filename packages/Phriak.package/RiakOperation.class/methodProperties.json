@@ -1,7 +1,9 @@
 {
 	"class" : {
-		"on:" : "NicolasPetton 2/2/2012 14:13" },
+		"on:" : "DmitriZagidulin 2/18/2014 18:49" },
 	"instance" : {
+		"client" : "DmitriZagidulin 2/18/2014 18:49",
+		"client:" : "DmitriZagidulin 2/18/2014 18:50",
 		"doRun" : "NicolasPetton 2/2/2012 14:25",
 		"errorResponseCodes" : "NicolasPetton 2/2/2012 15:51",
 		"handleErrorResponse:" : "NicolasPetton 2/3/2012 23:57",
@@ -12,4 +14,4 @@
 		"responseError:" : "NicolasPetton 1/31/2012 17:10",
 		"run" : "PaulDeBruicker 9/10/2012 13:43",
 		"successfulResponseCodes" : "NicolasPetton 2/2/2012 14:16",
-		"url" : "NicolasPetton 2/2/2012 14:18" } }
+		"url" : "DmitriZagidulin 2/20/2014 16:14" } }

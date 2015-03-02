@@ -8,7 +8,8 @@
 	"instvars" : [
 		"session",
 		"inputs",
-		"query" ],
+		"query",
+		"client" ],
 	"name" : "RiakMapReduce",
 	"pools" : [
 		 ],

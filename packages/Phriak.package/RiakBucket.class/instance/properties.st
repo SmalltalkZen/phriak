@@ -4,6 +4,6 @@ properties
 	Answer the properties dictionary"
 
 	^properties ifNil: [
-		properties := self protocol getBucketOperation
+		properties := self client getBucketOperation
 			bucket: self;
 			run]

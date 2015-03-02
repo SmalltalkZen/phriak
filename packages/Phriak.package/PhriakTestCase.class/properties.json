@@ -4,9 +4,9 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "<historical>",
+	"commentStamp" : "DmitriZagidulin 2/18/2014 15:27",
 	"instvars" : [
-		"client" ],
+		 ],
 	"name" : "PhriakTestCase",
 	"pools" : [
 		 ],

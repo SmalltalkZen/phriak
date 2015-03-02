@@ -7,9 +7,9 @@
 	"commentStamp" : "NicolasPetton 2/2/2012 13:28",
 	"instvars" : [
 		"name",
-		"session",
 		"properties",
-		"objectClass" ],
+		"objectClass",
+		"client" ],
 	"name" : "RiakBucket",
 	"pools" : [
 		 ],

@@ -1,7 +1,7 @@
 public
 at: aString put: aRiakObject
 
-	^ self protocol storeObjectOperation
+	^ self client storeObjectOperation
 		object: (aRiakObject
 			bucket: self;
 			yourself);

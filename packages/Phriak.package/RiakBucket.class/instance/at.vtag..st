@@ -1,6 +1,6 @@
 public
 at: aString vtag: aString2
-	^self protocol fetchObjectOperation 
+	^self client fetchObjectOperation 
 		bucket: self;
 		key: aString;
 		vtag: aString2;

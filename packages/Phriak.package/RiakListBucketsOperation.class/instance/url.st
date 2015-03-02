@@ -1,6 +1,6 @@
 accessing
 url
 	^super url
-		addPathSegment: self protocol bucketsPath;
+		addPathSegment: self client bucketsPath;
 		queryAt: 'buckets' put: 'true';
 		yourself

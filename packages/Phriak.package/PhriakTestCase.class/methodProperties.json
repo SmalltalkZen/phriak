@@ -2,10 +2,4 @@
 	"class" : {
 		 },
 	"instance" : {
-		"bucketForTesting" : "NicolasPetton 2/1/2012 12:28",
-		"bucketNameForTesting" : "DmitriZagidulin 2/16/2014 13:46",
-		"client" : "NicolasPetton 2/1/2012 12:28",
-		"client:" : "NicolasPetton 2/1/2012 12:28",
-		"clientForTesting" : "DmitriZagidulin 2/16/2014 16:41",
-		"setUp" : "DmitriZagidulin 2/16/2014 16:40",
-		"tearDown" : "NicolasPetton 2/1/2012 12:28" } }
+		 } }

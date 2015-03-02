@@ -1,6 +1,6 @@
 public
 at: aString
-	^self protocol fetchObjectOperation 
+	^self client fetchObjectOperation 
 		bucket: self;
 		key: aString;
 		run

@@ -6,6 +6,6 @@ storeProperties
 	properties ifNil: [
 		RiakProtocolError signal: 'The bucket [', self name, '] properties have not been read yet.'].
 	
-	self protocol setBucketOperation 
+	self client setBucketOperation 
 		bucket: self;
 		run

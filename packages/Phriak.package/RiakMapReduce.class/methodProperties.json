@@ -1,12 +1,14 @@
 {
 	"class" : {
-		"on:" : "NicolasPetton 2/1/2012 17:50" },
+		"on:" : "DmitriZagidulin 2/20/2014 15:54" },
 	"instance" : {
 		"bucket:" : "NicolasPetton 2/3/2012 16:22",
 		"bucket:index:key:" : "DmitriZagidulin 2/16/2014 13:27",
 		"bucket:index:start:stop:" : "DmitriZagidulin 2/16/2014 13:27",
 		"bucket:key:" : "NicolasPetton 2/1/2012 18:49",
 		"bucket:key:keyData:" : "PaulDeBruicker 9/10/2012 19:17",
+		"client" : "DmitriZagidulin 2/20/2014 15:54",
+		"client:" : "DmitriZagidulin 2/20/2014 15:54",
 		"defaultMapQuery" : "NicolasPetton 2/3/2012 17:43",
 		"inputs" : "NicolasPetton 2/1/2012 17:49",
 		"inputs:" : "PaulDeBruicker 9/10/2012 20:55",
@@ -19,6 +21,6 @@
 		"name:" : "PaulDeBruicker 5/21/2012 12:05",
 		"query" : "NicolasPetton 2/1/2012 18:51",
 		"reduce:" : "NicolasPetton 2/3/2012 17:43",
-		"run" : "NicolasPetton 2/2/2012 16:51",
+		"run" : "DmitriZagidulin 2/20/2014 16:14",
 		"session" : "NicolasPetton 2/1/2012 17:50",
 		"session:" : "NicolasPetton 2/1/2012 17:50" } }

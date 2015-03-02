@@ -10,5 +10,5 @@
 	"name" : "PhriakRiakObjectTests",
 	"pools" : [
 		 ],
-	"super" : "PhriakTestCase",
+	"super" : "PhriakIntegrationTestCase",
 	"type" : "normal" }

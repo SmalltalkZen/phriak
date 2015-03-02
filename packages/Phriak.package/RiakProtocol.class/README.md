@@ -1,2 +1,0 @@
-Implements direct, low level communication with the Riak server using its REST API ( http://docs.basho.com/riak/latest/dev/references/http/ ).
-If you wish to use a different HTTP implementation, just override or change methods in category http-private.

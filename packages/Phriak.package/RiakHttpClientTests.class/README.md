@@ -1,0 +1,1 @@
+SUnit tests of RiakHttpClient.

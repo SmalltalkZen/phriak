@@ -1,6 +1,6 @@
 public
 keysIndexed: aString value: anotherString
-	^self protocol secondaryIndexOperation
+	^self client secondaryIndexOperation
 		bucket: self;
 		key: aString;
 		value: anotherString;

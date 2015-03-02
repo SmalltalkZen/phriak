@@ -44,6 +44,6 @@ testLinkWalking
 	self assert: result size = 4.
 	
 	objects  := result collect: [:each | 
-		RiakObject fromJson: each session: self client].
+		RiakObject fromJson: each client: self client].
 	
 	self assert: (objects collect: [:each | each key]) sorted equals: #('Please Please Me' 'With The Beatles' 'The Beatles' 'Let It Be') sorted

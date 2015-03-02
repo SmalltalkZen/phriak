@@ -1,3 +1,3 @@
 accessing
 url
-	^self protocol baseUrl
+	^self client baseUrl

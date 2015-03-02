@@ -1,0 +1,15 @@
+{
+	"category" : "Phriak-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DmitriZagidulin 2/18/2014 17:42",
+	"instvars" : [
+		"host",
+		"port" ],
+	"name" : "RiakClient",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

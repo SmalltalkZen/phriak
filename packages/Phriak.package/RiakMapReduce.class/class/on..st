@@ -1,5 +1,7 @@
 instance creation
-on: aSession
-	^self new 
-		session: aSession; 
+on: aClient
+	"Associate a client with this operation instance"
+	
+	^self new
+		client: aClient;
 		yourself
