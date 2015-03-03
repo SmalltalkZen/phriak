@@ -12,6 +12,7 @@ Instance Variables
 	key: aString
 	lastModified: anObject 
 	metadata: anObject
+	siblingTags: anOrderedCollection of strings (sibling vtags)
 	
 bucket
 	- A RiakBucket instance to which the object belongs, used store operations
@@ -22,3 +23,7 @@ contentType
 context
 	- Causal context, used to track object version changes. See 
 	  http://docs.basho.com/riak/latest/theory/concepts/context/ for discussion.
+
+siblingTags
+	- A set of strings representing sibling vtags. These are 'version tags' denoting conflicting versions 
+		of an object.

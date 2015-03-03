@@ -4,10 +4,9 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "DmitriZagidulin 2/28/2015 19:21",
+	"commentStamp" : "DmitriZagidulin 3/2/2015 23:01",
 	"instvars" : [
-		"siblings",
-		"bucket" ],
+		"object" ],
 	"name" : "RiakConflictError",
 	"pools" : [
 		 ],

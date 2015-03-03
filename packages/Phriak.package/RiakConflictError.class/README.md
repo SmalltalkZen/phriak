@@ -1,9 +1,8 @@
-A RiakConflictError is raised when a RiakFetchObjectOperation detects the presence of multiple object versions (siblings). This is more of a signal/exception rather than an actual error, and implies that the application should resolve the multiple versions according to its domain logic.
+A RiakConflictError is raised when an object that has conflicts (siblings) either attempts to be written back to the database, or attempts to be accessed.
 
 See http://docs.basho.com/riak/latest/dev/using/conflict-resolution/ for a discussion of siblings and conflict resolution strategies.
 
 Instance Variables
-	bucket:		aRiakBucket instance
-	siblings:		<Object>
+	object:		<aRiakObject>
 
 

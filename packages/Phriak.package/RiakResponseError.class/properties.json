@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "DmitriZagidulin 2/28/2015 19:27",
 	"instvars" : [
-		 ],
+		"response" ],
 	"name" : "RiakResponseError",
 	"pools" : [
 		 ],

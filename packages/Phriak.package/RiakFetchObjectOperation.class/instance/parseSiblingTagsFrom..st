@@ -1,6 +1,7 @@
 private
-parseSiblingsFrom: aResponse
-	"This is quite hackish. Unfortunately, Zinc doesn't parse multipart/mixed entities yet, so we can't get all siblings at once.
+parseSiblingTagsFrom: aResponse
+	"Parses sibling vtags (version tags) for an object that has conflicts.
+	Unfortunately, Zinc doesn't parse multipart/mixed entities yet, so we can't get all siblings at once.
 	
 	The response body is like the following:
 
@@ -17,4 +18,4 @@ parseSiblingsFrom: aResponse
 	
 	^((aResponse entity contents copyWithRegex: 'Siblings\:' matchesReplacedWith: '')
 		findTokens: Character lf)
-			select: [:each | each notEmpty]
+			select: [:each | each notEmpty].

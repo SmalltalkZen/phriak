@@ -1,3 +1,3 @@
 private
 successfulResponseCodes
-	^#(200)
+	^#(200 300)
