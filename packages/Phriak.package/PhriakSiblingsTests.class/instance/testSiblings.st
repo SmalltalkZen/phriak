@@ -30,6 +30,6 @@ testSiblings
 			siblings := ex siblings.
 			self assert: ex bucket equals: bucket.
 			self assert: siblings size equals: 2].
-		
+
 	self assert: (bucket at: 'test' vtag: siblings first) key equals: 'test'.
 	self assert: (bucket at: 'test' vtag: siblings last) key equals: 'test'.

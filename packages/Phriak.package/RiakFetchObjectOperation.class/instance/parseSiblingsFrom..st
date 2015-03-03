@@ -10,8 +10,10 @@ parseSiblingsFrom: aResponse
 	6nr5tDTmhxnwuAFJDd2s6G
 	6zRSZFUJlHXZ15o9CG0BYl
 	
-	See: http://docs.basho.com/riak/latest/theory/concepts/Vector-Clocks/ for more
-	about siblings"
+	See: 
+		http://docs.basho.com/riak/latest/dev/references/http/fetch-object/ and
+		http://docs.basho.com/riak/latest/theory/concepts/context/ for more
+		about causal context and siblings"
 	
 	^((aResponse entity contents copyWithRegex: 'Siblings\:' matchesReplacedWith: '')
 		findTokens: Character lf)

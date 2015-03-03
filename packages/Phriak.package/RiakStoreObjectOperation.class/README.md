@@ -1,7 +1,7 @@
 RiakStoreObjectOperation represents a store HTTP request: 
 Stores an object under the specified bucket / key. 
 
-Use the PUT method, never POST.
+Uses the PUT method.
 
 Multiple choices and conditional request semantics are not handled yet.
 

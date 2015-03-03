@@ -4,6 +4,6 @@ headers
 	headers := ZnHeaders new.
 	self 
 		addIndexHeadersTo: headers;
-		addVClockHeaderTo: headers;
+		addContextHeaderTo: headers;
 		addMetadataHeadersTo: headers.
 	^headers

@@ -5,7 +5,7 @@ fromJson: json client: aClient
 	object := self on: (aClient bucketNamed: (json at: 'bucket')).
 	object
 		key: (json at: 'key');
-		vclock: (json at: 'vclock').
+		context: (json at: 'context').
 	values := (json at: 'values') first.
 	object
 		data: (values at: 'data');

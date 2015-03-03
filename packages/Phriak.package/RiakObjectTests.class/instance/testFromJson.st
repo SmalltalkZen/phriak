@@ -4,7 +4,7 @@ testFromJson
 	json := '{
         "bucket": "hb",
         "key": "second",
-        "vclock": "a85hYGBgzGDKBVIsLEHbN2YwJTLmsTLMPvDzCF8WAA==",
+        "context": "a85hYGBgzGDKBVIsLEHbN2YwJTLmsTLMPvDzCF8WAA==",
         "values": [
             {
                 "metadata": {
@@ -24,7 +24,7 @@ testFromJson
 	object := RiakObject fromJson: (Json readFrom: json readStream) client: RiakClient default.
 	self assert: object bucket name = 'hb'.
 	self assert: object key = 'second'.
-	self assert: object vclock = 'a85hYGBgzGDKBVIsLEHbN2YwJTLmsTLMPvDzCF8WAA=='.
+	self assert: object context = 'a85hYGBgzGDKBVIsLEHbN2YwJTLmsTLMPvDzCF8WAA=='.
 	self assert: object indexes first = (RiakIndex key: 'hello' value: 'world').
 	self assert: object contentType = 'text/plain'.
 	self assert: object data = 'the second'
