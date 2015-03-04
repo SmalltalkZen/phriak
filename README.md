@@ -60,6 +60,12 @@ currentUser data. "=> '{ id: \"user-123\", name: \"Dmitri\" }'"
 currentUser contentType.  "=> 'application/json'"  "this is the default type"
 currentUser lastModified. "=> 4 March 2015 11:25:49 pm"
 
+"When updating existing objects, be sure to read-before-write"
+currentUser := users at: 'user-123'.  "This loads the latest causal context (object version)"
+currentUser 
+		data: '{ id: "user-123", name: "Some New Value" }';
+		store.
+
 "Delete an object"
 users removeKey: 'user-123'.```
 
