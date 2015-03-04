@@ -47,4 +47,19 @@ To use Riak, create a client instance:
 
 ```smalltalk
 "Create a default client (a RiakHttpClient instance) pointing to default host and http port"client := RiakClient default."Or, set the host, port and client type explicitly"client := RiakClient http	host: '127.0.0.1';	port: 8098;	yourself.
-```
+```
+### Reading and Writing (CRUD)
+```smalltalk
+"Write an object to a bucket"users newObject		data: '{ id: "user-123", name: "Dmitri" }';		key: 'user-123';		store.
+"You can write strings or binaries"images := client bucketNamed: 'user-images'.
+images newObject		data: (ByteArray with: 1 with: 2 with: 3);		key: 'user-123';		contentType: 'application/binary';		store.
+"Read objects from a bucket"users := client bucketNamed: 'users'.
+currentUser := users at: 'user-123'.
+
+currentUser data. "=> '{ id: \"user-123\", name: \"Dmitri\" }'"
+currentUser contentType.  "=> 'application/json'"  "this is the default type"
+currentUser lastModified. "=> 4 March 2015 11:25:49 pm"
+
+"Delete an object"
+users removeKey: 'user-123'.```
+
