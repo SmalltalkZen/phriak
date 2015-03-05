@@ -4,7 +4,9 @@ storeProperties
 	Fails if the properties have not been read yet!"
 
 	properties ifNil: [
-		RiakProtocolError signal: 'The bucket [', self name, '] properties have not been read yet.'].
+		RiakProtocolError new 
+			bucket: self;
+			signal: 'The bucket [', self name, '] properties have not been read yet.'].
 	
 	self client setBucketOperation 
 		bucket: self;

@@ -1,21 +1,23 @@
 {
 	"class" : {
+		"defaultContentType" : "DmitriZagidulin 3/5/2015 13:03",
 		"fromJson:client:" : "DmitriZagidulin 3/2/2015 20:01",
 		"on:" : "NicolasPetton 2/1/2012 22:45" },
 	"instance" : {
 		"bucket" : "NicolasPetton 2/2/2012 13:13",
 		"bucket:" : "NicolasPetton 2/1/2012 22:42",
-		"contentType" : "NicolasPetton 2/2/2012 13:21",
+		"contentType" : "DmitriZagidulin 3/4/2015 20:03",
 		"contentType:" : "NicolasPetton 2/1/2012 15:25",
 		"context" : "DmitriZagidulin 3/2/2015 19:53",
 		"context:" : "DmitriZagidulin 3/2/2015 19:53",
 		"data" : "DmitriZagidulin 3/2/2015 23:09",
 		"data:" : "NicolasPetton 2/1/2012 15:24",
 		"hasConflicts" : "DmitriZagidulin 3/2/2015 23:02",
-		"indexes" : "DmitriZagidulin 2/16/2014 13:28",
+		"indexes" : "DmitriZagidulin 3/5/2015 13:11",
 		"indexes:" : "NicolasPetton 2/1/2012 15:36",
 		"indexesAt:" : "NicolasPetton 2/13/2012 18:37",
 		"indexesAt:put:" : "NicolasPetton 2/1/2012 17:10",
+		"initialize" : "DmitriZagidulin 3/5/2015 13:11",
 		"key" : "NicolasPetton 2/2/2012 13:23",
 		"key:" : "NicolasPetton 2/1/2012 15:24",
 		"lastModified" : "NicolasPetton 2/6/2012 16:29",
@@ -26,4 +28,4 @@
 		"removeIndexesAt:" : "NicolasPetton 2/29/2012 20:55",
 		"siblingTags" : "DmitriZagidulin 3/2/2015 20:42",
 		"siblingTags:" : "DmitriZagidulin 3/2/2015 23:25",
-		"store" : "DmitriZagidulin 3/2/2015 23:09" } }
+		"store" : "DmitriZagidulin 3/5/2015 13:56" } }

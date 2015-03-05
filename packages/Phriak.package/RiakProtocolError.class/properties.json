@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "DmitriZagidulin 2/28/2015 19:26",
 	"instvars" : [
-		 ],
+		"bucket",
+		"object" ],
 	"name" : "RiakProtocolError",
 	"pools" : [
 		 ],

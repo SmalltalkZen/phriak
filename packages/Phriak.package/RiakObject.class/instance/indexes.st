@@ -5,4 +5,4 @@ indexes
 	
 	To add indexes, use #indexesAt:put:"
 	
-	^indexes ifNil: [indexes := OrderedCollection new]
+	^indexes

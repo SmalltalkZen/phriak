@@ -1,0 +1,14 @@
+{
+	"category" : "Phriak-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DmitriZagidulin 3/5/2015 14:04",
+	"instvars" : [
+		 ],
+	"name" : "RiakBucketTests",
+	"pools" : [
+		 ],
+	"super" : "PhriakTestCase",
+	"type" : "normal" }

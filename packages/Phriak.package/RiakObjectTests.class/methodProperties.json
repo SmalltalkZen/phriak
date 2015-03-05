@@ -2,4 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testFromJson" : "DmitriZagidulin 3/2/2015 20:00" } }
+		"testFromJson" : "DmitriZagidulin 3/2/2015 20:00",
+		"testNewObject" : "DmitriZagidulin 3/5/2015 13:13",
+		"testStoreWithNoBucket" : "DmitriZagidulin 3/5/2015 14:00",
+		"testStoreWithNoContentType" : "DmitriZagidulin 3/5/2015 14:01",
+		"testStoreWithNoData" : "DmitriZagidulin 3/5/2015 14:02",
+		"testStoreWithNoKey" : "DmitriZagidulin 3/5/2015 14:16" } }

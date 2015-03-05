@@ -27,7 +27,7 @@ testSiblings
 	self assert: object hasConflicts.
 	self assert: object siblingTags size equals: 3.
 	self should: [ object data ] raise: RiakConflictError.
-	self should: [ object store ] raise: RiakConflictError.	
+	self should: [ object store ] raise: RiakConflictError.
 	validValues := #('value1' 'value2' 'value3'). 
 	"Fetch each version of the object individually"
 	v1 := bucket at: testKey vtag: object siblingTags first.
