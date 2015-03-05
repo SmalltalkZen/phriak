@@ -4,5 +4,5 @@ See http://docs.basho.com/riak/latest/dev/references/http/
 
 Instance Variables
 	client: aRiakClient 
-	httpClient: aRiakHttpClient
+	httpClient: aZnClient
 	protocol: anObject 

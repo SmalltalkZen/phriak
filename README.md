@@ -1,7 +1,7 @@
 # Phriak
 Phriak is a Smalltalk client for the [Riak NoSQL database](http://basho.com/riak/) (primarily for [Pharo Smalltalk](http://pharo.org/)).
 
-This is a GitHub mirror of [Phriak's SmalltalkHub Monticello repository](http://smalltalkhub.com/#!/~gokr/Phriak) (using [FileTree](https://github.com/dalehenrich/filetree)).
+This is also mirrored on [Phriak's SmalltalkHub Monticello repository](http://smalltalkhub.com/#!/~gokr/Phriak) (using [FileTree](https://github.com/dalehenrich/filetree)).
 
 Phriak started as a friendly fork from Runar Jordahl's original [EpigentRiakInterface](http://blog.epigent.com/2011/03/riak-interface-for-pharo-smalltalk.html). Riak is a screamingly cool NoSQL database that scales like crazy. This Riak interface implementation uses Zinc HTTP and the JSON package.
 
@@ -49,11 +49,12 @@ To use Riak, create a client instance:
 "Create a default client (a RiakHttpClient instance) pointing to default host and http port"client := RiakClient default."Or, set the host, port and client type explicitly"client := RiakClient http	host: '127.0.0.1';	port: 8098;	yourself.
 ```
 ### Reading and Writing (CRUD)
-```smalltalk
+```smalltalk"Reference a bucket"users := client bucketNamed: 'users'.
+
 "Write an object to a bucket"users newObject		data: '{ id: "user-123", name: "Dmitri" }';		key: 'user-123';		store.
 "You can write strings or binaries"images := client bucketNamed: 'user-images'.
 images newObject		data: (ByteArray with: 1 with: 2 with: 3);		key: 'user-123';		contentType: 'application/binary';		store.
-"Read objects from a bucket"users := client bucketNamed: 'users'.
+"Read objects from a bucket"
 currentUser := users at: 'user-123'.
 
 currentUser data. "=> '{ id: \"user-123\", name: \"Dmitri\" }'"
@@ -61,7 +62,7 @@ currentUser contentType.  "=> 'application/json'"  "this is the default type"
 currentUser lastModified. "=> 4 March 2015 11:25:49 pm"
 
 "When updating existing objects, be sure to read-before-write"
-currentUser := users at: 'user-123'.  "This loads the latest causal context (object version)"
+currentUser := users reload: currentUser.  "Gets the latest causal context (object version)"
 currentUser 
 		data: '{ id: "user-123", name: "Some New Value" }';
 		store.
