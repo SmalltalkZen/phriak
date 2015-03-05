@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "DmitriZagidulin 3/2/2015 20:11",
 	"instvars" : [
-		"bucket",
-		"key",
 		"vtag" ],
 	"name" : "RiakFetchObjectOperation",
 	"pools" : [
 		 ],
-	"super" : "RiakOperation",
+	"super" : "RiakObjectOperation",
 	"type" : "normal" }

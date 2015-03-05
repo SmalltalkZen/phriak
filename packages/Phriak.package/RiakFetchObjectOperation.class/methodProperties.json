@@ -2,12 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"bucket" : "NicolasPetton 2/2/2012 15:08",
-		"bucket:" : "NicolasPetton 2/2/2012 15:08",
 		"errorResponseCodes" : "NicolasPetton 2/3/2012 23:37",
 		"handleErrorResponse:" : "DmitriZagidulin 3/2/2015 23:07",
-		"key" : "NicolasPetton 2/2/2012 15:08",
-		"key:" : "NicolasPetton 2/2/2012 15:08",
 		"parseIndexFrom:" : "NicolasPetton 2/1/2012 23:40",
 		"parseIndexesFrom:" : "NicolasPetton 2/1/2012 23:35",
 		"parseLastModifiedFrom:" : "NicolasPetton 2/6/2012 16:28",
@@ -16,7 +12,7 @@
 		"parseResponse:" : "DmitriZagidulin 3/2/2015 23:24",
 		"parseSiblingTagsFrom:" : "DmitriZagidulin 3/2/2015 23:23",
 		"readResponse:" : "NicolasPetton 2/2/2012 15:31",
-		"successfulResponseCodes" : "DmitriZagidulin 3/2/2015 21:56",
-		"url" : "DmitriZagidulin 2/20/2014 16:14",
+		"successfulResponseCodes" : "DmitriZagidulin 3/5/2015 16:05",
+		"url" : "DmitriZagidulin 3/5/2015 16:02",
 		"vtag" : "DmitriZagidulin 3/2/2015 20:15",
 		"vtag:" : "NicolasPetton 2/4/2012 00:19" } }

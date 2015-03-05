@@ -1,3 +1,5 @@
 executing
 doRun
-	^self httpClient delete: self url
+	^ self httpClient
+		headerAddAll: self headers;
+		delete: self url

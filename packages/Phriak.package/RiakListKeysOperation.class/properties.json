@@ -10,5 +10,5 @@
 	"name" : "RiakListKeysOperation",
 	"pools" : [
 		 ],
-	"super" : "RiakOperation",
+	"super" : "RiakDevModeOnlyOperation",
 	"type" : "normal" }

@@ -2,4 +2,4 @@ actions
 remove
 	"Remove the receiver from its bucket."
 	
-	self bucket removeKey: self key
+	self bucket remove: self atKey: self key

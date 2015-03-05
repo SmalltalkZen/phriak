@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "DmitriZagidulin 3/2/2015 20:20",
 	"instvars" : [
-		"object" ],
+		 ],
 	"name" : "RiakStoreObjectOperation",
 	"pools" : [
 		 ],
-	"super" : "RiakOperation",
+	"super" : "RiakObjectOperation",
 	"type" : "normal" }

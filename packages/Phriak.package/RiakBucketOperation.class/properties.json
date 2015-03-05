@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "<historical>",
+	"commentStamp" : "DmitriZagidulin 3/5/2015 15:44",
 	"instvars" : [
-		 ],
-	"name" : "RiakDeleteKeyOperation",
+		"bucket" ],
+	"name" : "RiakBucketOperation",
 	"pools" : [
 		 ],
-	"super" : "RiakObjectOperation",
+	"super" : "RiakOperation",
 	"type" : "normal" }

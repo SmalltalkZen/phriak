@@ -10,5 +10,5 @@
 	"name" : "RiakListBucketsOperation",
 	"pools" : [
 		 ],
-	"super" : "RiakOperation",
+	"super" : "RiakDevModeOnlyOperation",
 	"type" : "normal" }

@@ -1,0 +1,16 @@
+{
+	"category" : "Phriak-Protocol",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DmitriZagidulin 3/5/2015 16:14",
+	"instvars" : [
+		"bucket",
+		"key",
+		"object" ],
+	"name" : "RiakObjectOperation",
+	"pools" : [
+		 ],
+	"super" : "RiakOperation",
+	"type" : "normal" }

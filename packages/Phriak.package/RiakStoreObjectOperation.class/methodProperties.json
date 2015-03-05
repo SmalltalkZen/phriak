@@ -2,12 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addContextHeaderTo:" : "DmitriZagidulin 3/2/2015 19:51",
-		"addIndexHeadersTo:" : "NicolasPetton 2/2/2012 16:46",
-		"addMetadataHeadersTo:" : "NicolasPetton 2/2/2012 16:08",
 		"doRun" : "PaulDeBruicker 9/10/2012 14:31",
 		"headers" : "DmitriZagidulin 3/2/2015 19:49",
-		"object" : "NicolasPetton 2/1/2012 16:39",
-		"object:" : "NicolasPetton 2/2/2012 19:17",
-		"successfulResponseCodes" : "NicolasPetton 2/2/2012 16:09",
-		"url" : "DmitriZagidulin 2/20/2014 16:15" } }
+		"successfulResponseCodes" : "NicolasPetton 2/2/2012 16:09" } }

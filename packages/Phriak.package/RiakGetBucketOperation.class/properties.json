@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"bucket" ],
+		 ],
 	"name" : "RiakGetBucketOperation",
 	"pools" : [
 		 ],
-	"super" : "RiakOperation",
+	"super" : "RiakBucketOperation",
 	"type" : "normal" }
