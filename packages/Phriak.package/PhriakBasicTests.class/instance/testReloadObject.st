@@ -12,3 +12,6 @@ testReloadObject
 	reloadedObject := bucket reload: obj.
 	self assert: reloadedObject data = storedValue.
 	self assert: reloadedObject key = testKey.
+	self assert: obj etag isNotNil.
+	self assert: obj etag isNotEmpty.
+	self assert: obj etag = reloadedObject etag.

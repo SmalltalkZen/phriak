@@ -10,6 +10,7 @@
 		"contentType",
 		"context",
 		"data",
+		"etag",
 		"indexes",
 		"key",
 		"lastModified",
