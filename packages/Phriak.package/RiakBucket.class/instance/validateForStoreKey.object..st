@@ -1,8 +1,6 @@
 as yet unclassified
 validateForStoreKey: aKey object: aRiakObject
-	"Make sure the key and required object attributes are not nil or empty (for storing an object)"
-
-	self validateKey: aKey forOperation: 'store'.
+	"Make sure the required object attributes are not nil or empty (for storing an object)"
 
 	aRiakObject hasConflicts
 		ifTrue: [ 

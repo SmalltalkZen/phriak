@@ -8,6 +8,7 @@ Instance Variables
 	contentType: aString
 	context: aString
 	data: aString or aByteArray
+	etag: aString
 	indexes: aCollection of RiakIndex objects
 	key: aString
 	lastModified: anObject 
@@ -24,6 +25,9 @@ context
 	- Causal context, used to track object version changes. See 
 	  http://docs.basho.com/riak/latest/theory/concepts/context/ for discussion.
 
+etag
+	- ETag (entity tag in the HTTP sense), used for conditional HTTP operations (if-not-modified, etc)
+													
 siblingTags
 	- A set of strings representing sibling vtags. These are 'version tags' denoting conflicting versions 
 		of an object.

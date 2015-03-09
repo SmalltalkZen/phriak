@@ -7,4 +7,4 @@ store
 			RiakProtocolError new
 				object: self;
 				signal: 'Riak protocol error: cannot store an object with no bucket specified' ].
-	self bucket at: self key put: self
+	^self bucket at: self key put: self

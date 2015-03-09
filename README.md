@@ -51,9 +51,11 @@ To use Riak, create a client instance:
 ### Reading and Writing (CRUD)
 ```smalltalk"Reference a bucket"users := client bucketNamed: 'users'.
 
-"Write an object to a bucket"users newObject		data: '{ id: "user-123", name: "Dmitri" }';		key: 'user-123';		contentType: 'application/json';		store.
+"Write an object to a bucket"users newObject		data: '{ name: "Dmitri" }';		key: 'user-123';		contentType: 'application/json';		store.
 "You can write strings or binaries"images := client bucketNamed: 'user-images'.
-images newObject		data: (ByteArray with: 1 with: 2 with: 3);		key: 'user-456';		contentType: 'application/binary';		store.
+images newObject		data: (ByteArray with: 1 with: 2 with: 3);		key: 'user-123';		contentType: 'application/binary';		store."If you don't specify a key, Riak will auto-generate a UUID type key and return it"
+result := users newObject		data: '{ name: "Joseph" }';		contentType: 'application/json';		store.
+result at: #key.  "=> 'bzPygTesROPtGGVUKfyvp2RR49"
 "Read objects from a bucket"
 currentUser := users at: 'user-123'.
 
@@ -68,5 +70,5 @@ currentUser
 		store.
 
 "Delete an object"
-users removeKey: 'user-123'.```
+currentUser remove.```
 

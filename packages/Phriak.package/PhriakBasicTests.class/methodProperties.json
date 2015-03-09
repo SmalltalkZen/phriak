@@ -12,4 +12,5 @@
 		"testPutAndGetEmptyString" : "DmitriZagidulin 2/16/2014 15:41",
 		"testPutAndGetLargeBinaryObject" : "DmitriZagidulin 2/16/2014 15:42",
 		"testPutAndGetString" : "DmitriZagidulin 2/16/2014 15:42",
-		"testReloadObject" : "DmitriZagidulin 3/5/2015 21:35" } }
+		"testReloadObject" : "DmitriZagidulin 3/9/2015 11:49",
+		"testStoreObjectWithNoKey" : "DmitriZagidulin 3/9/2015 18:12" } }
