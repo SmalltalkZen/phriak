@@ -1,5 +1,5 @@
 accessing
 metadata
-	"Answer user defined metadata"
-	
-	^metadata ifNil: [metadata := JsonObject new]
+	"Answer custom user defined metadata for this object's contents"
+
+	^ self content metadata

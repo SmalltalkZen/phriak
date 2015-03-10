@@ -1,3 +1,3 @@
 accessing
 contentType: aString
-	contentType := aString
+	self content contentType: aString

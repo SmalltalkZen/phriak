@@ -1,3 +1,3 @@
 accessing
 indexesAt: aString
-	self indexes select: [:each | each key = aString]
+	self content indexesAt: aString

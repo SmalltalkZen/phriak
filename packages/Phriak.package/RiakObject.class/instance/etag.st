@@ -1,3 +1,3 @@
 accessing
 etag
-	^ etag
+	^ self content etag

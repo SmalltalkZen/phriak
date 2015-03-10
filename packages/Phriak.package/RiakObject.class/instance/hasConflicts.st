@@ -4,4 +4,4 @@ hasConflicts
 		write collisions. It is up to the developer or application to perform conflict resolution.
 		See http://docs.basho.com/riak/latest/dev/using/conflict-resolution/"
 
-	^ self siblingTags isNotNil and: [ self siblingTags size > 1 ]
+	^ self siblings size > 1

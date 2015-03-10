@@ -1,4 +1,4 @@
-actions
+persistence
 store
 	"Store the receiver object in its Riak bucket. If the object has conflicts (siblings), signal a conflict error instead of storing."
 

@@ -1,3 +1,3 @@
 accessing
 metadata: anObject
-	metadata := anObject asDictionary
+	self content metadata: anObject

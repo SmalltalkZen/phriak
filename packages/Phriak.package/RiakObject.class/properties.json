@@ -4,18 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "DmitriZagidulin 3/9/2015 11:51",
+	"commentStamp" : "DmitriZagidulin 3/9/2015 22:43",
 	"instvars" : [
 		"bucket",
-		"contentType",
 		"context",
-		"data",
-		"etag",
-		"indexes",
 		"key",
-		"lastModified",
-		"metadata",
-		"siblingTags" ],
+		"siblings" ],
 	"name" : "RiakObject",
 	"pools" : [
 		 ],

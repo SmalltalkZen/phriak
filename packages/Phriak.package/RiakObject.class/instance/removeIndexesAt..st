@@ -1,3 +1,3 @@
 accessing
 removeIndexesAt: aString
-	self indexes: (self indexes reject: [:each | each key = aString])
+	self content removeIndexesAt: aString

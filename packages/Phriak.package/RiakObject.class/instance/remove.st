@@ -1,4 +1,4 @@
-actions
+persistence
 remove
 	"Remove the receiver from its bucket."
 	

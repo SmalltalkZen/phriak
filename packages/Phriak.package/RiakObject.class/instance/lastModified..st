@@ -1,3 +1,3 @@
 accessing
 lastModified: aTimeStamp
-	lastModified := aTimeStamp
+	self content lastModified: aTimeStamp

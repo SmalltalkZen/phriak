@@ -1,3 +1,3 @@
 accessing
 etag: anObject
-	etag := anObject
+	self content etag: anObject

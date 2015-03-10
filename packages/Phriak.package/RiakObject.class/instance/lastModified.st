@@ -1,3 +1,3 @@
 accessing
 lastModified
-	^lastModified
+	^self content lastModified

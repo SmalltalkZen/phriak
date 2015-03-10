@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"doRun" : "DmitriZagidulin 3/9/2015 21:42",
 		"errorResponseCodes" : "NicolasPetton 2/3/2012 23:37",
 		"handleErrorResponse:" : "DmitriZagidulin 3/2/2015 23:07",
 		"parseIndexFrom:" : "NicolasPetton 2/1/2012 23:40",
@@ -9,8 +10,9 @@
 		"parseLastModifiedFrom:" : "NicolasPetton 2/6/2012 16:28",
 		"parseMetadataFrom:" : "NicolasPetton 2/2/2012 16:27",
 		"parseMetadatasFrom:" : "NicolasPetton 2/2/2012 16:26",
-		"parseResponse:" : "DmitriZagidulin 3/9/2015 11:49",
+		"parseResponse:" : "DmitriZagidulin 3/9/2015 22:59",
 		"parseSiblingTagsFrom:" : "DmitriZagidulin 3/2/2015 23:23",
+		"parseSiblingsFor:from:" : "DmitriZagidulin 3/9/2015 21:52",
 		"readResponse:" : "NicolasPetton 2/2/2012 15:31",
 		"successfulResponseCodes" : "DmitriZagidulin 3/5/2015 16:05",
 		"url" : "DmitriZagidulin 3/5/2015 16:02",

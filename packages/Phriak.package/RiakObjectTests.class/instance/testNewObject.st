@@ -11,4 +11,8 @@ testNewObject
 	self assert: rObject lastModified isNil.
 	self assert: rObject etag isNil.
 	self assert: rObject indexes isEmpty.
-	self assert: rObject contentType = RiakObject defaultContentType
+	self assert: rObject metadata isEmpty.
+	self assert: rObject contentType = RiakObjectContent defaultContentType.
+	self assert: (rObject content isKindOf: RiakObjectContent).
+	self assert: rObject siblings size = 1.
+	self deny: rObject hasConflicts
