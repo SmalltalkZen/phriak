@@ -1,11 +1,12 @@
 A RiakObjectContent represents a particular version of an object's value.
 
 Instance Variables
-	contentType:		<String>
-	data:		<Object>
-	etag:		<String>
+	contentType:	<String>
+	data:			<Object>
+	deleted:		<Boolean>
+	etag:			<String>
 	indexes:		<OrderedCollection>
-	lastModified:		<DateTime>
+	lastModified:	<DateTime>
 	metadata:		<Dictionary>
 
 contentType 
@@ -14,6 +15,10 @@ contentType
 data
 	- A string or byte array value for the object. This is the "payload".
 
+deleted
+	- This is a tombstone content (ie X-Riak-Deleted header encountered).
+	See http://docs.basho.com/riak/latest/ops/advanced/deletion/#Tombstones.
+	
 etag
 	- ETag (entity tag in the HTTP sense), used for conditional HTTP operations (if-not-modified, etc). Unique identifier for this particular content/object version.
 

@@ -15,4 +15,5 @@ testNewObject
 	self assert: rObject contentType = RiakObjectContent defaultContentType.
 	self assert: (rObject content isKindOf: RiakObjectContent).
 	self assert: rObject siblings size = 1.
-	self deny: rObject hasConflicts
+	self assert: rObject hasConflicts not.
+	self assert: rObject isDeleted not

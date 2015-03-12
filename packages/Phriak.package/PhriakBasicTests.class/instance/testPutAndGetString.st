@@ -1,11 +1,11 @@
 tests
 testPutAndGetString
-	| bucket storedObject testKey |
-	storedObject := 'abc'.
+	| bucket storedValue testKey |
+	storedValue := 'abc'.
 	bucket := self bucketForTesting.
 	testKey := 'test-string'.
 	bucket newObject
-		data: storedObject;
+		data: storedValue;
 		key: testKey;
 		store.
-	self assert: (bucket at: testKey) data = storedObject
+	self assert: (bucket at: testKey) data = storedValue

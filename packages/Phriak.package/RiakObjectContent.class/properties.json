@@ -4,10 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "DmitriZagidulin 3/9/2015 22:39",
+	"commentStamp" : "DmitriZagidulin 3/12/2015 00:23",
 	"instvars" : [
 		"contentType",
 		"data",
+		"deleted",
 		"etag",
 		"indexes",
 		"lastModified",

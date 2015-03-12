@@ -11,4 +11,5 @@ testNewObject
 	self assert: (content indexes isKindOf: OrderedCollection).
 	self assert: content metadata isEmpty.
 	self assert: (content metadata isKindOf: Dictionary).
-	self assert: content contentType = RiakObjectContent defaultContentType
+	self assert: content contentType = RiakObjectContent defaultContentType.
+	self assert: content isDeleted not
