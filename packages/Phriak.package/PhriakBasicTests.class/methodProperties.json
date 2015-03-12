@@ -4,6 +4,7 @@
 	"instance" : {
 		"testBucketProperties" : "gk 11/25/2011 10:01",
 		"testDeleteObject" : "NicolasPetton 2/2/2012 15:16",
+		"testForceReloadObject" : "DmitriZagidulin 3/11/2015 22:58",
 		"testListBucketKeys" : "DmitriZagidulin 2/16/2014 15:45",
 		"testListBuckets" : "gk 11/24/2011 23:20",
 		"testNoOperation" : "RunarJordahl 3/13/2011 20:06",
@@ -13,4 +14,5 @@
 		"testPutAndGetLargeBinaryObject" : "DmitriZagidulin 2/16/2014 15:42",
 		"testPutAndGetString" : "DmitriZagidulin 2/16/2014 15:42",
 		"testReloadObject" : "DmitriZagidulin 3/9/2015 11:49",
+		"testReloadObjectNotModified" : "DmitriZagidulin 3/11/2015 22:07",
 		"testStoreObjectWithNoKey" : "DmitriZagidulin 3/9/2015 18:12" } }

@@ -4,8 +4,9 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "DmitriZagidulin 3/2/2015 20:11",
+	"commentStamp" : "DmitriZagidulin 3/11/2015 22:25",
 	"instvars" : [
+		"forceReload",
 		"vtag" ],
 	"name" : "RiakFetchObjectOperation",
 	"pools" : [

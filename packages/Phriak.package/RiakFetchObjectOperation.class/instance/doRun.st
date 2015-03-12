@@ -1,11 +1,10 @@
 private
 doRun
-	| znClient  |
+	"Assemble the request and perform the Fetch Object operation"
 
+	| znClient |
 	znClient := self httpClient
-		
-	 headerAt: 'Accept' put:'*/*, multipart/mixed';
 		url: self url;
 		yourself.
-
+	self addHeadersTo: znClient.
 	^ znClient get

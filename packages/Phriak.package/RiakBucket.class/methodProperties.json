@@ -2,11 +2,11 @@
 	"class" : {
 		"name:client:" : "DmitriZagidulin 2/18/2014 17:54" },
 	"instance" : {
-		"at:" : "DmitriZagidulin 3/5/2015 17:00",
-		"at:ifAbsent:" : "DmitriZagidulin 3/5/2015 17:00",
-		"at:object:ifAbsent:" : "DmitriZagidulin 3/5/2015 16:59",
+		"at:" : "DmitriZagidulin 3/11/2015 22:35",
+		"at:ifAbsent:" : "DmitriZagidulin 3/11/2015 22:36",
+		"at:object:force:ifAbsent:" : "DmitriZagidulin 3/11/2015 23:01",
 		"at:put:" : "DmitriZagidulin 3/5/2015 17:07",
-		"at:vtag:" : "DmitriZagidulin 3/5/2015 17:23",
+		"at:vtag:" : "DmitriZagidulin 3/11/2015 22:39",
 		"client" : "DmitriZagidulin 2/18/2014 17:55",
 		"client:" : "DmitriZagidulin 2/18/2014 17:55",
 		"keys" : "DmitriZagidulin 3/13/2014 20:26",
@@ -20,6 +20,7 @@
 		"printOn:" : "DmitriZagidulin 2/20/2014 16:13",
 		"properties" : "DmitriZagidulin 2/20/2014 16:13",
 		"reload:" : "DmitriZagidulin 3/4/2015 19:08",
+		"reloadForce:" : "DmitriZagidulin 3/11/2015 22:55",
 		"remove:atKey:" : "DmitriZagidulin 3/5/2015 17:18",
 		"removeAll" : "gk 11/24/2011 22:59",
 		"removeKey:" : "DmitriZagidulin 3/5/2015 17:19",

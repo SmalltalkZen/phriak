@@ -63,12 +63,15 @@ currentUser data. "=> '{ id: \"user-123\", name: \"Dmitri\" }'"
 currentUser contentType.  "=> 'application/json'"
 currentUser lastModified. "=> 4 March 2015 11:25:49 pm"
 
-"When updating existing objects, be sure to read-before-write"
-currentUser := users reload: currentUser.  "Gets the latest causal context (object version)"
+"When updating existing objects, read-before-you-write, unless you /know/ you haven't modified it"
+currentUser := users reload: currentUser.  "Ensure the latest causal context (object version)"
 currentUser 
 		data: '{ id: "user-123", name: "Some New Value" }';
 		store.
 
-"Delete an object"
+"Reloading uses If-Not-Modified HTTP GET conditional headers. But you can override that."
+currentUser := users reloadForce: currentUser.
+
+"Delete an object. This sends along the causal context, whenever possible."
 currentUser remove.```
 

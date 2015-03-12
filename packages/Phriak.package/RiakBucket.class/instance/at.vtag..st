@@ -10,5 +10,6 @@ at: aKey vtag: aVtagString
 	^self client fetchObjectOperation 
 		bucket: self;
 		key: aKey;
+		forceReload: true;
 		vtag: aVtagString;
 		run
