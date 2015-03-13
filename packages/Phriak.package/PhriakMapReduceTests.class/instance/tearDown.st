@@ -1,6 +1,6 @@
 running
 tearDown
 	super tearDown.
-	self artistsBucket removeAll.
-	self albumsBucket removeAll.
-	self tracksBucket removeAll
+	self artistsBucket devModeOnlyRemoveAll.
+	self albumsBucket devModeOnlyRemoveAll.
+	self tracksBucket devModeOnlyRemoveAll

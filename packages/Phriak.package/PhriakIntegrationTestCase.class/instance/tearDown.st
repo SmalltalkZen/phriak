@@ -1,4 +1,4 @@
 running
 tearDown
 	super tearDown.
-	self bucketForTesting removeAll
+	self bucketForTesting devModeOnlyRemoveAll

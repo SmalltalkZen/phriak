@@ -1,3 +1,3 @@
-api
+operations
 mapReduceOperation
 	^RiakMapReduceOperation on: self

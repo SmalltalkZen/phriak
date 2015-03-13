@@ -1,3 +1,3 @@
-api
+operations
 storeObjectOperation
 	^RiakStoreObjectOperation on: self

@@ -1,3 +1,3 @@
-api
+operations
 fetchObjectOperation
 	^RiakFetchObjectOperation on: self

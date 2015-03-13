@@ -1,0 +1,14 @@
+{
+	"category" : "Phriak-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PhriakDevModeOnlyTests",
+	"pools" : [
+		 ],
+	"super" : "PhriakIntegrationTestCase",
+	"type" : "normal" }

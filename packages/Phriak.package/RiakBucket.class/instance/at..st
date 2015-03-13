@@ -1,4 +1,4 @@
-public
+operations
 at: aKey
 	"Retrieve an object at this key"
 

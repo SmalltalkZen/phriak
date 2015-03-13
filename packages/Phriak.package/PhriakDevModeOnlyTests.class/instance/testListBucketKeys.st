@@ -7,4 +7,4 @@ testListBucketKeys
 		data: 'abc';
 		key: testKey;
 		store.
-	self assert: bucket keys size >= 1
+	self assert: bucket devModeOnlyListKeys size >= 1

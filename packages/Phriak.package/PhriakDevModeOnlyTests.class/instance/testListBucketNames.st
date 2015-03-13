@@ -1,0 +1,3 @@
+tests
+testListBucketNames
+	self client devModeOnlyGetBucketNames

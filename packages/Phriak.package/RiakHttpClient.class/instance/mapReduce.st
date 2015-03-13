@@ -1,4 +1,4 @@
-api
+operations
 mapReduce
 	"Return a RiakMapReduce operation instance"
 

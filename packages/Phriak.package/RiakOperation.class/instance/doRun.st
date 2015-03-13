@@ -1,4 +1,4 @@
 running
 doRun
 	"Execute a request"
-	^self httpClient get: self url
+	^self httpTransportClient get: self url

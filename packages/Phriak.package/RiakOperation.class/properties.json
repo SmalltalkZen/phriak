@@ -4,10 +4,9 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "DmitriZagidulin 3/4/2015 19:23",
+	"commentStamp" : "DmitriZagidulin 3/12/2015 21:32",
 	"instvars" : [
-		"protocol",
-		"httpClient",
+		"httpTransportClient",
 		"client" ],
 	"name" : "RiakOperation",
 	"pools" : [

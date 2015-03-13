@@ -1,4 +1,4 @@
-api
+operations
 deleteKeyOperation
 	"Return a RiakDeleteKeyOperation instance"
 

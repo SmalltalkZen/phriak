@@ -1,4 +1,4 @@
-public
+operations
 keysIndexed: aString value: anotherString
 	^self client secondaryIndexOperation
 		bucket: self;

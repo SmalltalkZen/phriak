@@ -1,3 +1,3 @@
-api
+operations
 secondaryIndexOperation 
 	^RiakSecondaryIndexOperation on: self

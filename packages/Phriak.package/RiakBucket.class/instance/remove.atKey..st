@@ -1,4 +1,4 @@
-public
+operations
 remove: aRiakObject atKey: aKey
 	"Delete the object at this key. Pass along the object to provide causal context"
 

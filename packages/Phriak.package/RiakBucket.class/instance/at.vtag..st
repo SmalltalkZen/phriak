@@ -1,4 +1,4 @@
-public
+operations
 at: aKey vtag: aVtagString
 	"Fetch an object at a particular 'version tag'. Used when there are siblings / multiple versions present."
 		self validateKey: aKey forOperation: 'fetch'.

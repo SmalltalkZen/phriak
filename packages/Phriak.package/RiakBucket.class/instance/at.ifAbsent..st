@@ -1,4 +1,4 @@
-public
+operations
 at: aKey ifAbsent: aBlock
 	"Retrieve an object at a key, if 404 Not Found, execute the block"
 

@@ -1,4 +1,4 @@
-public
+operations
 reloadForce: aRiakObject
 	"Load and return the latest version of the passed in object. (Do not send an If-Not-Modified header)."
 

@@ -1,7 +1,7 @@
 executing
 doRun
 	| znClient |
-	znClient := self httpClient
+	znClient := self httpTransportClient
 		headerAddAll: self headers;
 		url: self url;
 		entity: (ZnEntity with: self object data type: self object contentType);

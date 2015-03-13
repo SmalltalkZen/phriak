@@ -4,6 +4,6 @@ testSetBucketOperation
 
 	| client operation |
 	client := RiakClient http.
-	operation := client setBucketOperation.
+	operation := client setBucketPropsOperation.
 	self assert: (operation isKindOf: RiakSetBucketOperation).
 	self assert: operation client = client.

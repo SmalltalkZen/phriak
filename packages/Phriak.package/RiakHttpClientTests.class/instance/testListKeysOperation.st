@@ -4,6 +4,6 @@ testListKeysOperation
 
 	| client operation |
 	client := RiakClient http.
-	operation := client listKeysOperation.
+	operation := client devModeOnlyListKeysOperation.
 	self assert: (operation isKindOf: RiakListKeysOperation).
 	self assert: operation client = client.

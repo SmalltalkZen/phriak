@@ -1,4 +1,4 @@
-public
+operations
 at: aKey object: aRiakObject force: forceReload ifAbsent: aBlock
 	"Retrieve an object at this key. Pass along the optional RiakObject instance to provide causal context. 
 	In addition, if the operation encounters a 404 Not Found, execute the optional block.

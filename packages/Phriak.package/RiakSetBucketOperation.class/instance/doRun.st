@@ -1,6 +1,6 @@
 running
 doRun
-	^self httpClient
+	^self httpTransportClient
 		url: self url;
 		headerAddAll: (ZnHeaders withAll: {'Content-Type' -> 'application/json'} asDictionary);
 		entity: (ZnEntity 
