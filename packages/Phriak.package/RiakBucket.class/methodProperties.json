@@ -5,7 +5,7 @@
 		"at:" : "DmitriZagidulin 3/11/2015 22:35",
 		"at:ifAbsent:" : "DmitriZagidulin 3/11/2015 22:36",
 		"at:object:force:ifAbsent:" : "DmitriZagidulin 3/11/2015 23:01",
-		"at:put:" : "DmitriZagidulin 3/5/2015 17:07",
+		"at:put:" : "DmitriZagidulin 3/12/2015 21:01",
 		"at:vtag:" : "DmitriZagidulin 3/11/2015 22:39",
 		"client" : "DmitriZagidulin 2/18/2014 17:55",
 		"client:" : "DmitriZagidulin 2/18/2014 17:55",
@@ -25,5 +25,5 @@
 		"removeAll" : "gk 11/24/2011 22:59",
 		"removeKey:" : "DmitriZagidulin 3/5/2015 17:19",
 		"storeProperties" : "DmitriZagidulin 3/5/2015 14:57",
-		"validateForStoreKey:object:" : "DmitriZagidulin 3/9/2015 18:02",
+		"validateForStore:" : "DmitriZagidulin 3/12/2015 21:01",
 		"validateKey:forOperation:" : "DmitriZagidulin 3/5/2015 16:54" } }

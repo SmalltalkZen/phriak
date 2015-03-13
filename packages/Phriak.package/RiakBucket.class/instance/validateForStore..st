@@ -1,5 +1,5 @@
-as yet unclassified
-validateForStoreKey: aKey object: aRiakObject
+validation
+validateForStore: aRiakObject
 	"Make sure the required object attributes are not nil or empty (for storing an object)"
 
 	aRiakObject hasConflicts

@@ -74,4 +74,19 @@ currentUser := users reloadForce: currentUser.
 
 "Delete an object. This sends along the causal context, whenever possible."
 currentUser remove.```
-
+### Getting and Setting Bucket Properties
+Buckets serve as a namespace for keys (on the server-side, they are a prefix for the key). 
+The also serve as a way to store custom configuration for a group of keys, 
+such as custom replica values, read/write quorums, search indexes, and so on.
+See [Riak bucket properties documentation](http://docs.basho.com/riak/latest/dev/references/http/set-bucket-props/) for a list of available properties.
+
+```smalltalk
+users := client bucketNamed: 'users'.
+"Retrieve a Dictionary of bucket properties from the server"
+props := users properties.
+props at: 'n_val'.  "=> 3"
+"Change the bucket properties"
+bucket properties at: 'allow_mult' put: true.  "Enable siblings for this bucket"bucket storeProperties.
+```
+
+### Conflict Resolution
