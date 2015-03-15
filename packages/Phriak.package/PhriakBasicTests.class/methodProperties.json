@@ -4,12 +4,12 @@
 	"instance" : {
 		"testBucketProperties" : "gk 11/25/2011 10:01",
 		"testDeleteObject" : "NicolasPetton 2/2/2012 15:16",
-		"testForceReloadObject" : "DmitriZagidulin 3/15/2015 15:17",
+		"testForceReloadObject" : "DmitriZagidulin 3/15/2015 17:42",
 		"testPutAndGetBinaryObject" : "DmitriZagidulin 3/12/2015 00:28",
 		"testPutAndGetEmptyBinaryObject" : "DmitriZagidulin 3/12/2015 00:28",
 		"testPutAndGetEmptyString" : "DmitriZagidulin 3/12/2015 00:28",
 		"testPutAndGetLargeBinaryObject" : "DmitriZagidulin 3/12/2015 00:28",
 		"testPutAndGetString" : "DmitriZagidulin 3/12/2015 00:29",
-		"testReloadObject" : "DmitriZagidulin 3/15/2015 15:17",
+		"testReloadObject" : "DmitriZagidulin 3/15/2015 17:26",
 		"testReloadObjectNotModified" : "DmitriZagidulin 3/11/2015 22:07",
 		"testStoreObjectWithNoKey" : "DmitriZagidulin 3/15/2015 16:56" } }

@@ -1,20 +1,32 @@
 tests
 testForceReloadObject
-	"Test the #reloadForce: operation"
+	"Test #reloadForce operation"
+	| bucket  testKey originalObject modifiedObject |
 
-	| bucket storedValue reloadedObject testKey obj |
-	storedValue := 'abc'.
 	bucket := self bucketForTesting.
-	testKey := 'test-force-reloaded-string'.
-	bucket newObject
-		data: storedValue;
+	testKey := 'test-reloaded-string'.
+	originalObject := bucket newObject
+		data: 'first value';
 		key: testKey;
-		store.
-	obj := bucket at: testKey.
-	reloadedObject := bucket reloadForce: obj.
-	self assert: reloadedObject data = storedValue.	
-	self assert: reloadedObject key = testKey.
-	self assert: obj etag isNotNil.
-	self assert: obj etag isNotEmpty.
-	self assert: obj etag = reloadedObject etag.
-	self assert: obj siblings = reloadedObject siblings
+		store;
+		yourself.
+	
+	"Now modify the object at that key, meanwhile"
+	modifiedObject := bucket newObject
+		data: 'modified value';
+		key: testKey;
+		store;
+		yourself.
+	
+	self deny: originalObject = modifiedObject.
+	
+	"If we use the latest etag, the reload will just get a 204 Not Modified, and not reload the data"
+	originalObject etag: modifiedObject etag.
+	originalObject reload.
+	self assert: originalObject data = 'first value'.
+	self deny: originalObject = modifiedObject.
+	
+	"However, using #reloadForce will not send the etag, and will force the refresh"
+	originalObject reloadForce.
+	self assert: originalObject = modifiedObject.
+	self assert: originalObject data = 'modified value'.

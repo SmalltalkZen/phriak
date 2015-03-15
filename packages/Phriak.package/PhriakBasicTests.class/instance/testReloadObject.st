@@ -1,19 +1,26 @@
 tests
 testReloadObject
-	| bucket storedValue reloadedObject testKey obj |
-	storedValue := 'abc'.
+	| bucket  testKey originalObject modifiedObject |
+
 	bucket := self bucketForTesting.
 	testKey := 'test-reloaded-string'.
-	bucket newObject
-		data: storedValue;
+	originalObject := bucket newObject
+		data: 'first value';
 		key: testKey;
-		store.
-	obj := bucket at: testKey.
-	reloadedObject := bucket reload: obj.
-	self assert: reloadedObject data = storedValue.
-	self assert: reloadedObject key = testKey.
-	self assert: obj etag isNotNil.
-	self assert: obj etag isNotEmpty.
-	self assert: obj etag = reloadedObject etag.
-	self assert: obj isDeleted not.
-	self assert: obj siblings = reloadedObject siblings
+		store;
+		yourself.
+	
+	"Now modify the object at that key, meanwhile"
+	modifiedObject := bucket newObject
+		data: 'modified value';
+		key: testKey;
+		store;
+		yourself.
+	
+	self deny: originalObject = modifiedObject.
+	originalObject reload.
+	
+	self assert: originalObject = modifiedObject.
+	self assert: originalObject data = 'modified value'.
+	self assert: originalObject key = testKey.
+	self assert: originalObject etag = modifiedObject etag.

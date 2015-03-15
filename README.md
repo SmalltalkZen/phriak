@@ -40,8 +40,8 @@ balancer](http://docs.basho.com/riak/latest/ops/advanced/configs/load-balancing-
 "Write an object to a bucket"users newObject		data: '{ name: "Dmitri" }';		key: 'user-123';		contentType: 'application/json';		store.
 "You can write strings or binaries"images := client bucketNamed: 'user-images'.
 images newObject		data: (ByteArray with: 1 with: 2 with: 3);		key: 'user-123';		contentType: 'application/binary';		store."If you don't specify a key, Riak will auto-generate a UUID type key and return it"
-result := users newObject		data: '{ name: "Joseph" }';		contentType: 'application/json';		store.
-result at: #key.  "=> 'bzPygTesROPtGGVUKfyvp2RR49"
+storedObj := users newObject		data: '{ name: "Joseph" }';		contentType: 'application/json';		yourself.storedObj store.
+storedObj key.  "=> 'bzPygTesROPtGGVUKfyvp2RR49"
 "Read objects from a bucket"
 currentUser := users at: 'user-123'.
 
@@ -50,13 +50,13 @@ currentUser contentType.  "=> 'application/json'"
 currentUser lastModified. "=> 4 March 2015 11:25:49 pm"
 
 "When updating existing objects, read-before-you-write, unless you /know/ you haven't modified it"
-currentUser := users reload: currentUser.  "Ensure the latest causal context (object version)"
+currentUser reload.  "Ensure the latest causal context (object version)"
 currentUser 
 		data: '{ id: "user-123", name: "Some New Value" }';
 		store.
 
 "Reloading uses If-Not-Modified HTTP GET conditional headers. But you can override that."
-currentUser := users reloadForce: currentUser.
+currentUser reloadForce.
 
 "Delete an object. This sends along the causal context, whenever possible."
 currentUser remove.```
