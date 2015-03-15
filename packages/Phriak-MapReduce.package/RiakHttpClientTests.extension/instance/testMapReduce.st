@@ -1,4 +1,4 @@
-testing
+*Phriak-MapReduce
 testMapReduce
 	"Tests the client>>mapReduce factory method"
 

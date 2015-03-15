@@ -1,4 +1,4 @@
-testing
+*Phriak-MapReduce
 testMapReducePath
 	"Tests default url segment of the MapReduce resource"
 
