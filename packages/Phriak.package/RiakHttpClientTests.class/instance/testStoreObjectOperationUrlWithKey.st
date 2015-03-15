@@ -13,4 +13,4 @@ testStoreObjectOperationUrlWithKey
 		object: rObject;
 		key: 'test-key';
 		yourself.
-	self assert: op url asString = 'http://localhost:8098/buckets/test-bucket/keys/test-key'
+	self assert: op url asString = 'http://localhost:8098/buckets/test-bucket/keys/test-key?returnbody=true'

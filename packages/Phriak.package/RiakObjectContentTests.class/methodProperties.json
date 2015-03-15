@@ -2,4 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testNewObject" : "DmitriZagidulin 3/12/2015 00:15" } }
+		"testEquals" : "DmitriZagidulin 3/15/2015 15:58",
+		"testNewObject" : "DmitriZagidulin 3/12/2015 00:15",
+		"testNewObjectsEqual" : "DmitriZagidulin 3/15/2015 15:15" } }

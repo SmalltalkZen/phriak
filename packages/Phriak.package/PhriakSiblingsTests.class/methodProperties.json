@@ -8,4 +8,5 @@
 		"tearDown" : "DmitriZagidulin 3/12/2015 22:05:15",
 		"testNoSiblingsLastWriteWins" : "DmitriZagidulin 3/2/2015 23:02",
 		"testNoSiblingsWhenFetchContext" : "DmitriZagidulin 3/2/2015 23:03",
-		"testSiblings" : "DmitriZagidulin 3/9/2015 23:23:20" } }
+		"testSiblings" : "DmitriZagidulin 3/9/2015 23:23:20",
+		"testSiblingsOnStore" : "DmitriZagidulin 3/15/2015 17:02" } }

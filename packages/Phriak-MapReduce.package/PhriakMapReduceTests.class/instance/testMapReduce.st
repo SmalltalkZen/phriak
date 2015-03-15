@@ -1,4 +1,5 @@
 tests
+"protocol: tests"
 testMapReduce
 	| artist   |
 	

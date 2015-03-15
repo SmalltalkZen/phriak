@@ -12,4 +12,4 @@ testStoreObjectOperationUrlNoKey
 		bucket: bucket;
 		object: rObject;
 		yourself.
-	self assert: op url asString = 'http://localhost:8098/buckets/test-bucket/keys'
+	self assert: op url asString = 'http://localhost:8098/buckets/test-bucket/keys?returnbody=true'

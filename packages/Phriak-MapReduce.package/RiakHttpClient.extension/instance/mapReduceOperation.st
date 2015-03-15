@@ -1,3 +1,3 @@
 *Phriak-MapReduce
 mapReduceOperation
-	^RiakMapReduceOperation on: self
+	^ RiakMapReduceOperation on: self

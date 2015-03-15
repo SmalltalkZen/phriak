@@ -2,6 +2,7 @@
 	"class" : {
 		"name:client:" : "DmitriZagidulin 2/18/2014 17:54" },
 	"instance" : {
+		"=" : "DmitriZagidulin 3/15/2015 15:39",
 		"at:" : "DmitriZagidulin 3/12/2015 22:05:15",
 		"at:ifAbsent:" : "DmitriZagidulin 3/12/2015 22:05:15",
 		"at:object:force:ifAbsent:" : "DmitriZagidulin 3/12/2015 22:05:15",
@@ -11,12 +12,13 @@
 		"client:" : "DmitriZagidulin 2/18/2014 17:55",
 		"devModeOnlyListKeys" : "DmitriZagidulin 3/12/2015 22:05:15",
 		"devModeOnlyRemoveAll" : "DmitriZagidulin 3/12/2015 22:05:15",
+		"initialize" : "DmitriZagidulin 3/15/2015 15:40",
 		"keysIndexed:start:end:" : "DmitriZagidulin 3/12/2015 22:05:15",
 		"keysIndexed:value:" : "DmitriZagidulin 3/12/2015 22:05:15",
 		"name" : "gk 11/24/2011 22:44",
 		"name:" : "gk 11/24/2011 22:48",
 		"newObject" : "DmitriZagidulin 3/13/2014 20:22",
-		"objectClass" : "DmitriZagidulin 3/13/2014 20:23",
+		"objectClass" : "DmitriZagidulin 3/15/2015 15:40",
 		"objectClass:" : "DmitriZagidulin 3/13/2014 20:21",
 		"printOn:" : "DmitriZagidulin 2/20/2014 16:13",
 		"properties" : "DmitriZagidulin 3/12/2015 22:05:15",

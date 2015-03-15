@@ -16,4 +16,5 @@ testForceReloadObject
 	self assert: reloadedObject key = testKey.
 	self assert: obj etag isNotNil.
 	self assert: obj etag isNotEmpty.
-	self assert: obj etag = reloadedObject etag
+	self assert: obj etag = reloadedObject etag.
+	self assert: obj siblings = reloadedObject siblings

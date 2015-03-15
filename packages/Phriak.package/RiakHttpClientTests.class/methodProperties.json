@@ -5,11 +5,16 @@
 		"testBaseUrl" : "DmitriZagidulin 2/18/2014 18:43",
 		"testBucketsPath" : "DmitriZagidulin 2/18/2014 18:44",
 		"testDeleteKeyOperation" : "DmitriZagidulin 2/20/2014 15:57",
+		"testEquals" : "DmitriZagidulin 3/15/2015 15:35",
 		"testFetchObjectOperation" : "DmitriZagidulin 2/20/2014 15:58",
 		"testGetBucketNames" : "DmitriZagidulin 3/12/2015 22:05:15",
 		"testGetBucketOperation" : "DmitriZagidulin 3/12/2015 22:05:15",
 		"testListBucketsOperation" : "DmitriZagidulin 3/12/2015 22:05:15",
 		"testListKeysOperation" : "DmitriZagidulin 3/12/2015 22:05:15",
+		"testNewObject" : "DmitriZagidulin 3/15/2015 15:33",
+		"testNewObjectsEqual" : "DmitriZagidulin 3/15/2015 15:27",
 		"testSecondaryIndexOperation" : "DmitriZagidulin 2/20/2014 16:08",
 		"testSetBucketOperation" : "DmitriZagidulin 3/12/2015 22:05:15",
-		"testStoreObjectOperation" : "DmitriZagidulin 2/20/2014 16:10" } }
+		"testStoreObjectOperation" : "DmitriZagidulin 2/20/2014 16:10",
+		"testStoreObjectOperationUrlNoKey" : "DmitriZagidulin 3/15/2015 16:57",
+		"testStoreObjectOperationUrlWithKey" : "DmitriZagidulin 3/15/2015 16:31" } }

@@ -2,8 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
+		"testEquals" : "DmitriZagidulin 3/15/2015 16:19",
 		"testFromJson" : "DmitriZagidulin 3/2/2015 20:00",
 		"testNewObject" : "DmitriZagidulin 3/12/2015 00:16",
+		"testNewObjectsEqual" : "DmitriZagidulin 3/15/2015 16:17",
+		"testReloadFrom" : "DmitriZagidulin 3/15/2015 16:21",
 		"testStoreWithNoBucket" : "DmitriZagidulin 3/5/2015 14:00",
 		"testStoreWithNoContentType" : "DmitriZagidulin 3/5/2015 14:01",
 		"testStoreWithNoData" : "DmitriZagidulin 3/5/2015 14:02" } }

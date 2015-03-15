@@ -4,6 +4,7 @@
 		"fromJson:client:" : "DmitriZagidulin 3/2/2015 20:01",
 		"on:" : "NicolasPetton 2/1/2012 22:45" },
 	"instance" : {
+		"=" : "DmitriZagidulin 3/15/2015 16:16",
 		"addSibling:" : "DmitriZagidulin 3/9/2015 23:23:20",
 		"bucket" : "NicolasPetton 2/2/2012 13:13",
 		"bucket:" : "NicolasPetton 2/1/2012 22:42",
@@ -29,6 +30,7 @@
 		"lastModified:" : "DmitriZagidulin 3/9/2015 23:23:20",
 		"metadata" : "DmitriZagidulin 3/9/2015 23:23:20",
 		"metadata:" : "DmitriZagidulin 3/9/2015 23:23:20",
+		"reloadFrom:" : "DmitriZagidulin 3/15/2015 16:54",
 		"remove" : "DmitriZagidulin 3/9/2015 23:23:20",
 		"removeIndexesAt:" : "DmitriZagidulin 3/9/2015 23:23:20",
 		"resetSiblingsWith:" : "DmitriZagidulin 3/9/2015 23:23:20",
