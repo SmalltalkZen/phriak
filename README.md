@@ -31,6 +31,9 @@ To use Riak, create a client instance:
 ```smalltalk
 "Create a default client (a RiakHttpClient instance) pointing to default host and http port"client := RiakClient default."Or, set the host, port and client type explicitly"client := RiakClient http	host: '127.0.0.1';	port: 8098;	yourself.
 ```
+
+**Note:** For clusters with more than one node, the host and port should [point to a load
+balancer](http://docs.basho.com/riak/latest/ops/advanced/configs/load-balancing-proxy/) (such as HAProxy or Nginx). Do not instantiate a separate client for each node.
 ### Reading and Writing (CRUD)
 ```smalltalk"Reference a bucket"users := client bucketNamed: 'users'.
 
