@@ -1,4 +1,4 @@
-operations
+*Phriak-MapReduce
 mapReduce
 	"Return a RiakMapReduce operation instance"
 
