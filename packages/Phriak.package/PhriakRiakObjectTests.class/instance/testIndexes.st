@@ -1,4 +1,4 @@
-tests
+testing
 testIndexes
 	| bucket index1 index2 testKey |
 	testKey := 'test'.

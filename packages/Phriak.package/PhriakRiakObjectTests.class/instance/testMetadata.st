@@ -1,4 +1,4 @@
-tests
+testing
 testMetadata
 	| bucket object testKey |
 	bucket := self bucketForTesting.

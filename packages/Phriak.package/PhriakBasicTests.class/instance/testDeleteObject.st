@@ -1,4 +1,4 @@
-tests
+testing
 testDeleteObject
 	"This test used earlier 'list keys' (bucket keyNames) which is cached in Riak so it
 	takes a while for the delete to be apparent. Instead we see if a get will fail (404).

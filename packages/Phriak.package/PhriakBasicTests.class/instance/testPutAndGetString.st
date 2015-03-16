@@ -1,4 +1,4 @@
-tests
+testing
 testPutAndGetString
 	| bucket storedValue testKey |
 	storedValue := 'abc'.

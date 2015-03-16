@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 bucketNoSiblings
 	^ self client bucketNamed: self bucketNameNoSiblings

@@ -1,4 +1,4 @@
-tests
+testing
 testPutAndGetBinaryObject
 	| testKey bucket storedValue |
 	storedValue := ByteArray with: 1 with: 2 with: 3.

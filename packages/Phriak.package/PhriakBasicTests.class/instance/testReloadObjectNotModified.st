@@ -1,4 +1,4 @@
-tests
+testing
 testReloadObjectNotModified
 	"Test to make sure that an object is the same (has the same etag) after being reloaded."
 

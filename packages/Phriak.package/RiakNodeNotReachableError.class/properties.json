@@ -1,0 +1,15 @@
+{
+	"category" : "Phriak-Errors",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DmitriZagidulin 3/16/2015 18:31",
+	"instvars" : [
+		"host",
+		"port" ],
+	"name" : "RiakNodeNotReachableError",
+	"pools" : [
+		 ],
+	"super" : "RiakError",
+	"type" : "normal" }

@@ -1,4 +1,4 @@
-tests
+testing
 testReloadObject
 	| bucket  testKey originalObject modifiedObject |
 

@@ -1,4 +1,4 @@
-tests
+testing
 testBucketProperties
 	| bucket |
 	bucket := self bucketForTesting.

@@ -1,4 +1,4 @@
-tests
+testing
 testSecondaryIndex
 	| bucket index |
 	index := RiakIndex key: 'hello' value: 'world'.

@@ -1,4 +1,4 @@
-tests
+testing
 testSiblings
 	"Test to make sure that siblings (multiple versions) are created when multiple writes are made to the same key without first fetching the causal context. Requires a bucket with siblings enabled in the properties via 'allow_mult'."
 

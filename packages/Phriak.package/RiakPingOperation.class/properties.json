@@ -1,0 +1,14 @@
+{
+	"category" : "Phriak-Operations",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DmitriZagidulin 3/16/2015 18:17",
+	"instvars" : [
+		 ],
+	"name" : "RiakPingOperation",
+	"pools" : [
+		 ],
+	"super" : "RiakNodeOperation",
+	"type" : "normal" }

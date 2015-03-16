@@ -1,4 +1,4 @@
-tests
+testing
 testPutAndGetLargeBinaryObject
 	| bucket storedValue testKey |
 	storedValue := ByteArray new: 1024 * 1024 * 2 withAll: 123.

@@ -1,4 +1,4 @@
-tests
+testing
 testListBucketKeys
 	| bucket testKey |
 	bucket := self bucketForTesting.

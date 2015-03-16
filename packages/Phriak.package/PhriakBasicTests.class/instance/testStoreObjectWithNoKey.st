@@ -1,4 +1,4 @@
-tests
+testing
 testStoreObjectWithNoKey
 	| bucket rObject storedValue |
 	storedValue := 'abc'.

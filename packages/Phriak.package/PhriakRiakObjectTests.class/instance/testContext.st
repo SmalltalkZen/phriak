@@ -1,4 +1,4 @@
-tests
+testing
 testContext
 	| bucket object aContext testKey |
 	bucket := self bucketForTesting.

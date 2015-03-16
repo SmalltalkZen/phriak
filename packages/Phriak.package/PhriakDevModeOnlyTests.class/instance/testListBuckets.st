@@ -1,3 +1,3 @@
-tests
+testing
 testListBuckets
 	self client devModeOnlyGetBuckets

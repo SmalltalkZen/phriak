@@ -1,4 +1,4 @@
-tests
+testing
 testForceReloadObject
 	"Test #reloadForce operation"
 	| bucket  testKey originalObject modifiedObject |

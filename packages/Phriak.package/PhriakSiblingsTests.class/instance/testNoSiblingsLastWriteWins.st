@@ -1,4 +1,4 @@
-tests
+testing
 testNoSiblingsLastWriteWins
 	"Test to make sure that siblings (multiple versions) are NOT created when multiple writes are made to the same key without
 		first fetching the causal context to a bucket where siblings are disabled."
