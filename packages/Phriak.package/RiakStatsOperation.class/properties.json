@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "DmitriZagidulin 3/16/2015 19:09",
+	"commentStamp" : "DmitriZagidulin 3/16/2015 19:08",
 	"instvars" : [
 		 ],
-	"name" : "RiakPingOperation",
+	"name" : "RiakStatsOperation",
 	"pools" : [
 		 ],
 	"super" : "RiakNodeOperation",
