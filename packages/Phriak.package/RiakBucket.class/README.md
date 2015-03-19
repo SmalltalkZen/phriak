@@ -8,6 +8,7 @@ Instance Variables
 	name:		a String
 	objectClass: 	<Object>
 	properties:		a Dictionary
+	resolvers:		<OrderedCollection>			
 
 client
 	- a RiakClient instance, for performing get/put operations
@@ -20,5 +21,4 @@ objectClass
 
 properties
 	- Properties dictionary, cache of the results of a RiakGetBucketOperation. Used to store custom bucket properties such as read/write quorums, search indexes, etc. See http://docs.basho.com/riak/latest/dev/references/http/set-bucket-props/ for available bucket properties.
-	
 

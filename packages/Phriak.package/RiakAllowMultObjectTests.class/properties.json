@@ -1,0 +1,14 @@
+{
+	"category" : "Phriak-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DmitriZagidulin 3/18/2015 17:49",
+	"instvars" : [
+		 ],
+	"name" : "RiakAllowMultObjectTests",
+	"pools" : [
+		 ],
+	"super" : "PhriakTestCase",
+	"type" : "normal" }

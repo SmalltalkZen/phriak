@@ -1,5 +1,5 @@
 testing
-testNewObject
+testNewBucket
 	"Test the initial values of a new bucket"
 
 	| bucket |

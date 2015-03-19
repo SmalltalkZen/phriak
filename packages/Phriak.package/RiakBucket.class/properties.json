@@ -4,11 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "DmitriZagidulin 2/28/2015 19:14",
+	"commentStamp" : "DmitriZagidulin 3/18/2015 14:21",
 	"instvars" : [
 		"name",
 		"properties",
 		"objectClass",
+		"resolvers",
 		"client" ],
 	"name" : "RiakBucket",
 	"pools" : [

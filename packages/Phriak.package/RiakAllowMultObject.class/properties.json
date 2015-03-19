@@ -4,12 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "DmitriZagidulin 3/18/2015 14:54",
+	"commentStamp" : "DmitriZagidulin 3/18/2015 14:49",
 	"instvars" : [
-		"host",
-		"port" ],
-	"name" : "RiakClient",
+		"resolvers" ],
+	"name" : "RiakAllowMultObject",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "RiakObject",
 	"type" : "normal" }

@@ -3,9 +3,11 @@ testNoSiblingsWhenFetchContext
 	"Test to make sure that siblings (multiple versions) are NOT created (in a bucket where siblings are enabled) when you make multiple writes to the same key."
 
 	| bucket testKey object |
-	"Set the property 'allow_mult' to true first on the bucket.
-	See http://docs.basho.com/riak/latest/theory/concepts/context/#Siblings"
+	"This is a RiakAllowMultBucket instance"
 	bucket := self bucketForTesting.
+	"Bucket properties should only be configured once. However, for practical testing purposes,
+		we are forced to call storeProperties, since this bucket is unlikely to have been already set
+		up via whole-cluster config."
 	bucket properties at: 'allow_mult' put: true.
 	bucket storeProperties.
 	"Wait for the settings to be propagated around the cluster"

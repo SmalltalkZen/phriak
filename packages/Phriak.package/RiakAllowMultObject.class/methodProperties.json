@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"canHaveConflicts" : "DmitriZagidulin 3/18/2015 15:22",
+		"handleConflicts" : "DmitriZagidulin 3/18/2015 21:18",
+		"initialize" : "DmitriZagidulin 3/18/2015 15:16",
+		"resolveSiblingsWith:" : "DmitriZagidulin 3/18/2015 21:21",
+		"resolvers" : "DmitriZagidulin 3/18/2015 16:41",
+		"resolvers:" : "DmitriZagidulin 3/18/2015 15:16" } }

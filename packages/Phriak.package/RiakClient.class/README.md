@@ -17,7 +17,12 @@ client := RiakClient http
 	host: '127.0.0.1';
 	port: 8098;
 	yourself.
-	
+
+"You can now reference Riak buckets"
+users := client bucketNamed: 'users'.
+"or"
+cartItems := client allowMultBucketNamed: 'cart_items'.
+
 Instance Variables:
 	host: aString - cluster hostname or ip address
 	port: anInteger - cluster port number 

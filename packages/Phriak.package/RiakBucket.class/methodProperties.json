@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"defaultObjectClass" : "DmitriZagidulin 3/18/2015 15:10",
 		"name:client:" : "DmitriZagidulin 2/18/2014 17:54" },
 	"instance" : {
 		"=" : "DmitriZagidulin 3/15/2015 15:39",
@@ -7,12 +8,11 @@
 		"at:ifAbsent:" : "DmitriZagidulin 3/12/2015 22:05:15",
 		"at:object:force:ifAbsent:" : "DmitriZagidulin 3/12/2015 22:05:15",
 		"at:put:" : "DmitriZagidulin 3/12/2015 22:05:15",
-		"at:vtag:" : "DmitriZagidulin 3/12/2015 22:05:15",
 		"client" : "DmitriZagidulin 2/18/2014 17:55",
 		"client:" : "DmitriZagidulin 2/18/2014 17:55",
 		"devModeOnlyListKeys" : "DmitriZagidulin 3/12/2015 22:05:15",
 		"devModeOnlyRemoveAll" : "DmitriZagidulin 3/12/2015 22:05:15",
-		"initialize" : "DmitriZagidulin 3/15/2015 15:40",
+		"initialize" : "DmitriZagidulin 3/18/2015 15:18",
 		"keysIndexed:start:end:" : "DmitriZagidulin 3/12/2015 22:05:15",
 		"keysIndexed:value:" : "DmitriZagidulin 3/12/2015 22:05:15",
 		"name" : "gk 11/24/2011 22:44",
@@ -27,5 +27,5 @@
 		"remove:atKey:" : "DmitriZagidulin 3/12/2015 22:05:15",
 		"removeKey:" : "DmitriZagidulin 3/12/2015 22:05:15",
 		"storeProperties" : "DmitriZagidulin 3/12/2015 22:05:15",
-		"validateForStore:" : "DmitriZagidulin 3/12/2015 22:05:15",
+		"validateForStore:" : "DmitriZagidulin 3/18/2015 15:26",
 		"validateKey:forOperation:" : "DmitriZagidulin 3/5/2015 16:54" } }

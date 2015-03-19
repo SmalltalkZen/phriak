@@ -4,9 +4,11 @@ testNoSiblingsLastWriteWins
 		first fetching the causal context to a bucket where siblings are disabled."
 
 	| bucket testKey object |
-	"Set the property 'allow_mult' to false first on the bucket.
-	See http://docs.basho.com/riak/latest/theory/concepts/Vector-Clocks/"
+	"This is a regular RiakBucket instance"
 	bucket := self bucketNoSiblings.
+	"Bucket properties should only be configured once. However, for practical testing purposes,
+		we are forced to call storeProperties, since this bucket is unlikely to have been already set
+		up via whole-cluster config."
 	bucket properties at: 'allow_mult' put: false.
 	bucket storeProperties.
 	

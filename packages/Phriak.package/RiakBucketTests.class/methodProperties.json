@@ -2,10 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
+		"testAllowMultBucketCreation" : "DmitriZagidulin 3/18/2015 15:32",
 		"testBucketCreation" : "DmitriZagidulin 3/5/2015 14:04",
 		"testClientsNotEqual" : "DmitriZagidulin 3/15/2015 15:49",
 		"testEquals" : "DmitriZagidulin 3/15/2015 15:45",
 		"testNamesNotEqual" : "DmitriZagidulin 3/15/2015 15:48",
-		"testNewObject" : "DmitriZagidulin 3/15/2015 15:42",
+		"testNewAllowMultBucket" : "DmitriZagidulin 3/18/2015 15:31",
+		"testNewBucket" : "DmitriZagidulin 3/18/2015 15:30",
 		"testNewObjectsEqual" : "DmitriZagidulin 3/15/2015 15:44",
 		"testObjectClassesNotEqual" : "DmitriZagidulin 3/15/2015 15:50" } }

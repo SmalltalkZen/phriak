@@ -3,9 +3,11 @@ testSiblingsOnStore
 	"Test to make sure that siblings (multiple versions) are created when multiple writes are made to the same key without first fetching the causal context. Requires a bucket with siblings enabled in the properties via 'allow_mult'."
 
 	| bucket testKey object  |
-	"Set the property 'allow_mult' to true first on the bucket.
-	See http://docs.basho.com/riak/latest/theory/concepts/context/#Siblings"
+	"This is a RiakAllowMultBucket instance"
 	bucket := self bucketForTesting.
+	"Bucket properties should only be configured once. However, for practical testing purposes,
+		we are forced to call storeProperties, since this bucket is unlikely to have been already set
+		up via whole-cluster config."
 	bucket properties at: 'allow_mult' put: true.
 	bucket storeProperties.	"Wait for the settings to be propagated around the cluster"
 	(Delay forSeconds: 2) wait.

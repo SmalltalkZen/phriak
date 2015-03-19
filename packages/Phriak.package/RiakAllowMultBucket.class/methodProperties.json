@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"defaultObjectClass" : "DmitriZagidulin 3/18/2015 15:12" },
+	"instance" : {
+		"at:vtag:" : "DmitriZagidulin 3/18/2015 15:19",
+		"initialize" : "DmitriZagidulin 3/18/2015 15:18",
+		"registerResolver:" : "DmitriZagidulin 3/18/2015 14:14",
+		"resolvers" : "DmitriZagidulin 3/18/2015 14:12",
+		"resolvers:" : "DmitriZagidulin 3/18/2015 15:17",
+		"validateForStore:" : "DmitriZagidulin 3/18/2015 15:26" } }

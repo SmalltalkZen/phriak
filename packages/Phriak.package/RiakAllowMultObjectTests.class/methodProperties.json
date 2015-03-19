@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"resolverForTesting" : "DmitriZagidulin 3/18/2015 21:23",
+		"testNewObject" : "DmitriZagidulin 3/18/2015 17:35",
+		"testRegisterResolver" : "DmitriZagidulin 3/18/2015 19:22",
+		"testSiblingAutoResolvers" : "DmitriZagidulin 3/18/2015 17:45" } }

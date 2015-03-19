@@ -16,4 +16,5 @@ testNewObject
 	self assert: (rObject content isKindOf: RiakObjectContent).
 	self assert: rObject siblings size = 1.
 	self assert: rObject hasConflicts not.
+	self assert: rObject canHaveConflicts not.
 	self assert: rObject isDeleted not

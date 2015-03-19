@@ -21,6 +21,7 @@ key
 	- A unique (at least, within the bucket) string identifier for the object. If a key is not given, Riak will generate and return a UUID-type key when an object is stored.
 
 siblings
-	- The various versions of an object. When first created, an object has only one version. Multiple versions/siblings can be created during write collisions (if the causal context is missing or Riak is unable to automatically resolve the conflict from it). Note: Multiple siblings can only be created if the bucket has 'allow_mult' set to true. Otherwise, the bucket defaults to 'last write wins' behavior. 
-	See http://docs.basho.com/riak/latest/dev/using/conflict-resolution/ for more discussion.
+	- The various versions of an object. A regular RiakObject should only have 1 sibling. 
+	If you're going to enable multiple siblings and conflict resolution, use RiakAllowMultObject instead.
+	When performing updates to a regular RiakObject, make sure to pass in a recent causal context (by reading before you write), otherwise the database uses the timestamp to determine which update is correct ("last write wins" behavior) in case of simultaneous updates to the same object.
 													

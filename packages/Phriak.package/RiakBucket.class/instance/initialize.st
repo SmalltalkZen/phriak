@@ -1,4 +1,4 @@
 initialization
 initialize
 	super initialize.
-	self objectClass: RiakObject
+	self objectClass: self class defaultObjectClass.
