@@ -1,0 +1,14 @@
+{
+	"category" : "Phriak-Examples",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DmitriZagidulin 3/20/2015 00:12",
+	"instvars" : [
+		 ],
+	"name" : "RiakConflictResolver",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
