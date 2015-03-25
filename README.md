@@ -21,7 +21,7 @@ MCSmalltalkhubRepository
 Install the ```ConfigurationOfPhriak``` package. Then ```load``` the dependencies:
 
 ```smalltalk
-(ConfigurationOfPhriak project version: '0.7') load
+(ConfigurationOfPhriak project version: '0.8') load
 ```
 
 ## Usage
