@@ -247,7 +247,7 @@ connect to.
 1. Install Riak. On Mac OS X, use [brew
     install](http://docs.basho.com/riak/latest/ops/building/installing/mac-osx/#Homebrew)
     or use the pre-built installer at
-    [Riak204.dmg](http://basho.s3.amazonaws.com/Riak204.dmg). On Ubuntu Linux, I
+    [Riak2.1.dmg](http://riak-tools.s3.amazonaws.com/Riak210.dmg). On Ubuntu Linux, I
     recommend [installing from apt or from
     .deb](http://docs.basho.com/riak/latest/ops/building/installing/debian-ubuntu/))
 2. Start riak (usually just ```riak start```), take note of which HTTP port it's
@@ -265,4 +265,4 @@ The [Secondary Index](http://docs.basho.com/riak/latest/dev/using/2i/) tests in
 [Memory](http://docs.basho.com/riak/latest/ops/advanced/backends/memory/)
 backends, and will not work for a default Riak install (which uses the
 [Bitcask](http://docs.basho.com/riak/latest/ops/advanced/backends/bitcask/)
-backend). 
+backend).
