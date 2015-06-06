@@ -68,7 +68,7 @@ currentUser reloadForce.
 currentUser remove.```
 ### Getting and Setting Bucket Properties
 Buckets serve as a namespace for keys (on the server-side, they are a prefix for
-the key). The also serve as a way to store custom configuration for a group of
+the key). They also serve as a way to store custom configuration for a group of
 keys, such as custom replica values, read/write quorums, search indexes, and so
 on. See [Riak bucket properties
 documentation](http://docs.basho.com/riak/latest/dev/references/http/set-bucket-props/)
@@ -85,7 +85,7 @@ users properties at: 'allow_mult' put: true.  "Enable siblings for this bucket"
 
 ### Conflict Resolution
 Riak does not have a central locking mechanism to prevent write conflicts (a
-feature that enables it to provide  high availability, concurrent throughput,
+feature that enables it to provide high availability, concurrent throughput,
 and horizontal scalability). Instead, it provides several explicit mechanisms
 that the developer can use to handle and resolve potential write conflicts or
 race conditions (when several different clients are concurrently trying to
@@ -110,7 +110,7 @@ This strategy is the simplest, but is only appropriate when:
 When this strategy is used, if multiple updates happen to an object, the "**last
 write wins**". Meaning, Riak simply looks at the timestamp of the updates to
 determine which one will take effect. Keep in mind, however, that if the updates
-to the same object happen almost simultaneously, and given the unpredictable
+to the same object happen almost simultaneously, given the unpredictable
 nature of networks, it's impossible for a distributed system to "correctly"
 guess which update was supposed to be the last one (and so, you're picking at
 random).
@@ -138,7 +138,8 @@ buckets.default.last_write_wins = true
 
 #### Strategy #2 - Keep ALL the versions, let the App sort them out
 This strategy for dealing with conflicts and write collisions shifts the ultimate
-responsibility for figuring out which update is the correct one.
+responsibility for figuring out which update is the correct one, onto the
+developer.
 Use it for cases where both of these things are true:
 
 * The data is not immutable (that is, you'll be performing updates, not just inserts)
