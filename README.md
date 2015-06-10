@@ -149,10 +149,10 @@ To use this strategy, you must enable siblings either on the bucket level, or
 for the whole cluster.
 
 ```smalltalk
-cart_items := client bucketNamed: 'shopping_cart_items'.
-cart_items properties at: 'allow_mult' put: true.  "Enable siblings"
-cart_items properties at: 'dvv_enabled' put: true.  "Use DVVs for context"
-cart_items storeProperties.
+cart_items := client allowMultBucketNamed: 'shopping_cart_items'.
+
+"initProperties only needs to be run once, when you would do a table migration"
+cart_items initProperties.
 ```
 
 or
@@ -162,6 +162,7 @@ or
 ```
 buckets.default.allow_mult = true
 buckets.default.dvv_enabled = true
+buckets.default.last_write_wins = false
 ```
 
 Here's how this strategy works:

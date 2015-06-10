@@ -3,6 +3,7 @@
 		"defaultObjectClass" : "DmitriZagidulin 3/18/2015 15:12" },
 	"instance" : {
 		"at:vtag:" : "DmitriZagidulin 3/18/2015 15:19",
+		"initProperties" : "DmitriZagidulin 6/10/2015 10:44",
 		"initialize" : "DmitriZagidulin 3/18/2015 15:18",
 		"registerResolver:" : "DmitriZagidulin 3/18/2015 14:14",
 		"resolvers" : "DmitriZagidulin 3/18/2015 14:12",
