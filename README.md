@@ -41,10 +41,10 @@ to a load balancer](http://docs.basho.com/riak/latest/ops/advanced/configs/load-
 ### Reading and Writing (CRUD)
 ```smalltalk"Reference a bucket"users := client bucketNamed: 'users'.
 
-"Write an object to a bucket"users newObject		data: '{ name: "Dmitri" }';		key: 'user-123';		contentType: 'application/json';		store.
+"Write an object to a bucket"users newObject		data: '{ "name": "Dmitri" }';		key: 'user-123';		contentType: 'application/json';		store.
 "You can write strings or binaries"images := client bucketNamed: 'user-images'.
 images newObject		data: (ByteArray with: 1 with: 2 with: 3);		key: 'user-123';		contentType: 'application/binary';		store."If you don't specify a key, Riak will auto-generate a UUID key and return it"
-storedObj := users newObject		data: '{ name: "Joseph" }';		contentType: 'application/json';		yourself.storedObj store.
+storedObj := users newObject		data: '{ "name": "Joseph" }';		contentType: 'application/json';		yourself.storedObj store.
 storedObj key.  "=> 'bzPygTesROPtGGVUKfyvp2RR49"
 "Read objects from a bucket"
 currentUser := users at: 'user-123'.
@@ -57,7 +57,7 @@ currentUser lastModified. "=> 4 March 2015 11:25:49 pm"
     unless you /know/ you haven't modified it"
 currentUser reload.  "Ensure the latest causal context (object version)"
 currentUser
-		data: '{ id: "user-123", name: "Some New Value" }';
+		data: '{ "id": "user-123", "name": "Some New Value" }';
 		store.
 
 "Reloading uses If-Not-Modified HTTP GET conditional headers.
